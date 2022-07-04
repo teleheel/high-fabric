@@ -1,2 +1,3 @@
-# high-fabric
-A high fantasy fabric modpack
+# High Fabric
+
+A high fantasy fabric modpac

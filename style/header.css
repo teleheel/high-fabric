@@ -1,0 +1,45 @@
+p {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.dropdown-menu-section {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.dropdown-menu-button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.title-section {
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+
+.title {
+  font-family: Dancing Script, Roboto, Arial;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  flex: 1;
+}
+
+.fabric-logo {
+  height: 40px;
+}
