@@ -1,0 +1,13 @@
+name = "Wither Cage Fix"
+filename = "wither-cage-fix-1.0.13+MC1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8tiZuCBJ/versions/1.0.13+MC1.19/wither-cage-fix-1.0.13%2BMC1.19.jar"
+hash-format = "sha1"
+hash = "1d77e1f6652a589934e050fad450b659e2449449"
+
+[update]
+[update.modrinth]
+mod-id = "8tiZuCBJ"
+version = "txvYPXDy"

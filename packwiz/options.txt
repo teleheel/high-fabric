@@ -1,0 +1,30 @@
+version:3105
+autoJump:false
+snooperEnabled:false
+enableVsync:false
+fullscreen:true
+bobView:true
+renderDistance:24
+simulationDistance:10
+guiScale:3
+maxFps:260
+resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix"]
+incompatibleResourcePacks:[]
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+chatPreview:false
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.antighost.reveal:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
+key_[Fabrication] Crawl:key.keyboard.left.alt
+key_key.midnightcontrols.look_up:key.keyboard.unknown
+key_key.midnightcontrols.look_right:key.keyboard.unknown
+key_key.midnightcontrols.look_down:key.keyboard.unknown
+key_key.midnightcontrols.look_left:key.keyboard.unknown
+key_key.inventory_control_tweaks.drag_out_of_inventory_modifier:key.keyboard.unknown
+key_key.inventory_control_tweaks.click_armor_swap_modifier:key.keyboard.unknown
+key_key.inventory_control_tweaks.drag_all_stacks_across_modifier:key.keyboard.unknown

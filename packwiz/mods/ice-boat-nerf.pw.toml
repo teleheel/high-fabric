@@ -1,0 +1,13 @@
+name = "Ice Boat nerf"
+filename = "ice-boat-nerf-1.0.11+MC1.18-1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Udjno5eL/versions/1.0.11+MC1.18-1.19/ice-boat-nerf-1.0.11%2BMC1.18-1.19.jar"
+hash-format = "sha1"
+hash = "a8fd00ae3fdea1df6d098df68ca2f7788fb4ff0c"
+
+[update]
+[update.modrinth]
+mod-id = "Udjno5eL"
+version = "AB9oTLbl"

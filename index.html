@@ -77,18 +77,725 @@
         repellendus earum commodi ut, quidem ipsa.
       </p>
 
-      <!-- Mods -->
-      <h2>Mods</h2>
+      <h3>Important Notes</h3>
+      <h4>Bobby</h4>
+      <p>
+        Allows rendering cached chunks outside the server render distance. In
+        multiplayer this means that you can render chunks outside the server
+        render distance once you've rendered them once before. In singleplayer,
+        you can set the render distance of the internal server to e.g. 12 chunks
+        (these will use the vanilla, expensive rendering) and render cached
+        chunks with e.g. a render distance of 32 chunks (these will be rendered
+        with dummy chunks that are much more efficient). In practice this means
+        you can have a very large render distance and still maintain high FPS.
+        There are some important settings you should know about with regards to
+        this:
+      </p>
       <ul>
         <li>
-          <a href="https://modrinth.com/mod/fabric-api" target="_blank"
-            >Fabric API</a
+          Max Render Distance (Bobby config menu): Sets the maximum render
+          distance in the normal video options. If render distance is smaller
+          than server render distance, the rest of the chunks will be rendered
+          by cached dummy chunks.
+        </li>
+        <li>
+          Singleplayer Server View Distance: Sets the render distance of the
+          internal server in multiplayer. This must be smaller than the render
+          distance set in the vanilla video options to have any effect. The
+          chunks outside this render distance will be rendered with efficient
+          cached dummy chunks.
+        </li>
+        <li>
+          Cleanup Unused Regions: The cached chunks are stored locally in the
+          .minecraft/.bobby/ folder. By default, these chunks will be deleted
+          after 5 days. This is to save storage space. Set to 0 to keep the
+          cached chunks indefinetely.
+        </li>
+      </ul>
+
+      <h4>Bugfix Mods</h4>
+      <p>
+        This pack includes several bugfix mods, some of which has overlapping
+        fixes:
+      </p>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/debugify" target="_blank"
+            >Debugify:</a
+          >
+          all fixes enabled.
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/thorium" target="_blank"
+            >Thorium:</a
+          >
+          overlapping fixes disabled.
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/fabrication"
+            target="_blank"
+            >Fabrication:</a
+          >
+          all fixes enabled.
+        </li>
+      </ul>
+
+      <h4>Fabrication</h4>
+      <p>
+        Fabrication is a large mod that includes bugfixes, quality of life
+        changes and gameplay tweaks and mechanics. Some of the changes includes:
+      </p>
+      <ul>
+        <li>Reimplementing the old commands such as /toggledownfall</li>
+        <li>Showing bee count in hive tooltips</li>
+        <li>
+          Brushing against berry bushes doesn't hurt if wearing boots and
+          leggings
+        </li>
+        <li>Tridents with loyalty return when thrown in the void</li>
+        <li>Repair anvils by right clicking with a block of iron</li>
+        <li>Bone meal nether wart with blaze powder</li>
+      </ul>
+      <p>
+        The mod does a lot more, thus it is highly recommended to open
+        Fabrication's configuration menu to see exactly what has been changed,
+        and to enable/disable the changes you might want. The modpack enables a
+        fair share of the mod's features, with choices made to try to keep a
+        vanilla/logical/balanced feel.
+      </p>
+
+      <!-- Mods -->
+      <h2>Mods</h2>
+      <!-- Functional -->
+      <h3>Functional</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/notenoughcrashes" target="_blank"
+            >Not Enough Crashes (MR)</a
           >
         </li>
         <li>
-          <a href="https://modrinth.com/mod/modmenu" target="_blank"
-            >Mod Menu</a
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/badstdout"
+            target="_blank"
+            >BadStdOut (CF)</a
           >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/no-chat-reports" target="_blank"
+            >No Chat Reports (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/mixin-conflict-helper"
+            target="_blank"
+            >Mixin Conflict Helper (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/auth-me" target="_blank"
+            >Auth Me (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Performance -->
+      <h3>Performance</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/lazydfu" target="_blank"
+            >LazyDFU (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/sodium" target="_blank"
+            >Sodium (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/sodium-extra" target="_blank"
+            >Sodium Extra (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/lithium" target="_blank"
+            >Lithium (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/starlight" target="_blank"
+            >Starlight (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/ferrite-core" target="_blank"
+            >FerriteCore (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/dynamic-fps" target="_blank"
+            >Dynamic FPS (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/ebe" target="_blank"
+            >Enhanced Block Entities (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/entityculling" target="_blank"
+            >Entity Culling (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/moreculling" target="_blank"
+            >More Culling (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/language-reload" target="_blank"
+            >Language Reload (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/smoothboot-fabric" target="_blank"
+            >Smooth Boot (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://www.curseforge.com/minecraft/mc-mods/no-fade"
+            >No Fade (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/bobby" target="_blank"
+            >Bobby (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/cull-less-leaves" target="_blank"
+            >Cull Less Leaves (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/fastload" target="_blank"
+            >Fastload (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Bugfixes -->
+      <h3>Bugfixes</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/memoryleakfix" target="_blank"
+            >Memory Leak Fix (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/antighost" target="_blank"
+            >AntiGhost (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/item-model-fix" target="_blank"
+            >Item Model Fix (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/tooltipfix" target="_blank"
+            >ToolTipFix (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/debugify" target="_blank"
+            >Debugify (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/thorium" target="_blank"
+            >Thorium (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/antishulkerdupe" target="_blank"
+            >AntiShulkerDupe (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/netherportalfix" target="_blank"
+            >NetherPortalFix (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/advancements-debug" target="_blank"
+            >Advancements Debug (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/wither-cage-fix" target="_blank"
+            >Wither Cage Fix (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/attributefix"
+            target="_blank"
+            >AttributeFix (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/axolotl-bucket-fix"
+            target="_blank"
+            >Axolotl Bucket Fix (CF)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Gameplay -->
+      <h3>Gameplay</h3>
+      <ul>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/fabrication"
+            target="_blank"
+            >Fabrication (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Gameplay Tweaks -->
+      <h4>Tweaks</h4>
+      <ul>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/cleancut"
+            target="_blank"
+            >CleanCut (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/better-safe-bed" target="_blank"
+            >Better Safe Bed (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/leaves-us-in-peace" target="_blank"
+            >Leaves Us In Peace (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/better-signs" target="_blank"
+            >Better Signs & Frames (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/easy-shulker-boxes" target="_blank"
+            >Easy Shulker Boxes (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/more-banner-features"
+            target="_blank"
+            >More Banner Features (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/indypets" target="_blank"
+            >IndyPets (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Gameplay Balance -->
+      <h4>Balance</h4>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/ice-boat-nerf" target="_blank"
+            >Ice Boat Nerf (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Server -->
+      <h3>Server</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/styledplayerlist" target="_blank"
+            >Styled Player List (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/ihgm" target="_blank"
+            >I'm Here Get Moving (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/jline-for-minecraft-dedicated-server"
+            target="_blank"
+            >JLine for Dedicated Server (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/sessility" target="_blank"
+            >Sessility (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- User Interface -->
+      <h3>User Interface</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/modmenu" target="_blank"
+            >Mod Menu (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/roughly-enough-items"
+            target="_blank"
+            >Roughly Enough Items (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/midnightcontrols" target="_blank"
+            >MidnightControls (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/amecs" target="_blank"
+            >Amecs (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/inventory-control-tweaks"
+            target="_blank"
+            >Inventory Control Tweaks (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/roundaround-inventory-management"
+            target="_blank"
+            >Roundaround's Inventory Management (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/mouse-tweaks" target="_blank"
+            >Mouse Tweaks (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/cherished-worlds-fabric"
+            target="_blank"
+            >Cherished Worlds (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/morechathistory" target="_blank"
+            >MoreChatHistory (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/itemflexer" target="_blank"
+            >ItemFlexer (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/reeses-sodium-options"
+            target="_blank"
+            >Reese's Sodium Options (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/advancementinfo" target="_blank"
+            >Advancementinfo (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/clickable-advancements"
+            target="_blank"
+            >Clickable Advancements (CF)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/enhanced-attack-indicator"
+            target="_blank"
+            >Enhanced Attack Indicator (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/appleskin" target="_blank"
+            >AppleSkin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/equipment-compare-fabric"
+            target="_blank"
+            >Equipment Compare (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/ordinarytweaks" target="_blank"
+            >SomeOrdinaryTweaks (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/wthit" target="_blank"
+            >WTHIT (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/wmitaf" target="_blank"
+            >WMITAF (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/beenfo" target="_blank"
+            >Beenfo (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/dark-loading-screen"
+            target="_blank"
+            >Dark Loading Screen (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions"
+            target="_blank"
+            >Enchantment Descriptions (CF)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/enchantment-lore" target="_blank"
+            >Enchantment Lore (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/stylish-effects" target="_blank"
+            >Stylish Effects (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Shaders and Resource Pack Support -->
+      <h3>Shaders and Resource Pack Support</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/iris" target="_blank">Iris (MR)</a>
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/continuity" target="_blank"
+            >Continuity (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/animatica" target="_blank"
+            >Animatica (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/cit-resewn" target="_blank"
+            >CIT Resewn (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/colormatic" target="_blank"
+            >Coloromatic (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/cem" target="_blank"
+            >Custom Entity Models (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/entitytexturefeatures"
+            target="_blank"
+            >Entity Texture Features (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/puzzle" target="_blank"
+            >Puzzle (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/optigui" target="_blank"
+            >OptiGUI (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Visual -->
+      <h3>Visual</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/lambdynamiclights" target="_blank"
+            >LambDynamicLights (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/visuality" target="_blank"
+            >Visuality (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/fallingleaves" target="_blank"
+            >Falling Leaves (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/blur-fabric" target="_blank"
+            >Blur (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/betterbarriers" target="_blank"
+            >Better Barriers (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Audio -->
+      <h3>Audio</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/presence-footsteps" target="_blank"
+            >Presence Footsteps (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/charmonium" target="_blank"
+            >charmonium (MR)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Libraries -->
+      <h3>Libraries</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/fabric-api" target="_blank"
+            >Fabric API (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/indium" target="_blank"
+            >Indium (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/cloth-config" target="_blank"
+            >Cloth Config API (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/completeconfig" target="_blank"
+            >CompleteConfig (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/midnightlib" target="_blank"
+            >MidnightLib (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/architectury-api" target="_blank"
+            >Architectury API (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/balm" target="_blank">Balm (MR)</a>
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric"
+            target="_blank"
+            >Iceberg (CF)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://modrinth.com/mod/forge-config-api-port"
+            target="_blank"
+            >Forge Config API Port (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/badpackets" target="_blank"
+            >bad packets (MR)</a
+          >
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/puzzles-lib" target="_blank"
+            >Puzzles Lib (MR)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.curseforge.com/minecraft/mc-mods/bookshelf"
+            target="_blank"
+            >Bookshelf (CF)</a
+          >
+        </li>
+      </ul>
+
+      <!-- Optional mods -->
+      <h3>Optional mods</h3>
+      <ul>
+        <li>
+          <a href="https://modrinth.com/mod/krypton" target="_blank"
+            >Krypton (MR)</a
+          >
+          : Network optimization mod that still might have some issues. See
+          <a
+            href="https://github.com/Fabulously-Optimized/fabulously-optimized/issues/9"
+            target="_blank"
+            >here</a
+          >
+          for a discussion.
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/plasmo-voice" target="_blank"
+            >Plasmo Voice (MR)</a
+          >: Voice chat mod. Optional as it might require extra work by the
+          server host to get it working. Read
+          <a
+            href="https://github.com/plasmoapp/plasmo-voice/wiki/How-to-install-Server"
+            target="_blank"
+            >here</a
+          >
+          for server installation instructions. Install as any other mod in
+          /mods folder if on client.
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/zoomify" target="_blank"
+            >Zoomify (MR)</a
+          >: Zoom mod. Optional as it takes away functionality from in-game
+          items, such as the looking glass.
+        </li>
+        <li>
+          <a href="https://modrinth.com/mod/fabrishot" target="_blank"
+            >Fabrishot (MR)</a
+          >: Take large screenshots using F9. Potentially requires large amounts
+          of RAM, depending on screenshot resolution.
         </li>
       </ul>
     </div>
