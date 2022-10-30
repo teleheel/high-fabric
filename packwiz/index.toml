@@ -297,11 +297,6 @@ hash = "b050cff0e89de2dee4fedd716cf06e5ff985498cde864cfcc815bf3b64b780c3"
 metafile = true
 
 [[files]]
-file = "mods/chicken-nerf.pw.toml"
-hash = "07dcbd32bb46354b11357bf03400a6733dcd40f098c2afdb8dc5119eec7bfef9"
-metafile = true
-
-[[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "c47b4e6dea49ed224870b70e2101f7dfea59c63490cca1d5f5a1dd43b18c56ef"
 metafile = true
@@ -769,11 +764,6 @@ metafile = true
 [[files]]
 file = "mods/raised.pw.toml"
 hash = "014566a9d16177ef1499864718b28090b5ac254e3e910a2cea67b911b56f3e5a"
-metafile = true
-
-[[files]]
-file = "mods/recipe-reshaper.pw.toml"
-hash = "c56ca3889a3337295c4acff81937218838f067adeb268d992bee627e740c26ae"
 metafile = true
 
 [[files]]
