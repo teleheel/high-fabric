@@ -8,7 +8,7 @@ renderDistance:24
 simulationDistance:10
 guiScale:3
 maxFps:260
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix"]
+resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","minecraft/supporteatinganimation","continuity/default","continuity/glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
 tutorialStep:none
 skipMultiplayerWarning:true

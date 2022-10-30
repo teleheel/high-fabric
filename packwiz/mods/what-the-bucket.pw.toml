@@ -1,0 +1,13 @@
+name = "What The Bucket"
+filename = "WhatTheBucket-Fabric-1.19-5.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a913da03dea93cc54000ecc62d858c317336965e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3901888
+project-id = 633747

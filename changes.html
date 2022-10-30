@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="Bugfixes in High Fabric." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&
+            family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/general.css" />
+    <title>High Fabric</title>
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+    <h1>Tweaks, utility and mechanics</h1>
+    <p>
+      This page contains an overview of the different tweaks, utilities and
+      mechanics that are added by the mods that includes a lot of different,
+      often unrelated stuff.
+    </p>
+
+    <!-- Gameplay -->
+    <h2>Gameplay</h2>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Mod</th>
+      </tr>
+      <tr>
+        <td>Mechanic Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.drop_more_exp_on_death"
+            target="_blank"
+            >Drop More Experience On Death</a
+          >: Players drop 80% of their experience when dying instead of
+          basically nothing.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Mechanic Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.canhit"
+            target="_blank"
+            >CanHit</a
+          >: Adds a new CanHit tag that affects melee attacks, bows, crossbows,
+          and tridents. Also works on arrows and fireworks, in which case the
+          restrictions will be AND'd with the restrictions of the bow or
+          crossbow doing the firing. Click the link to learn more.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.tridents_activate_levers"
+            target="_blank"
+            >Tridents Activate Levers</a
+          >: When a trident hits a lever it will toggle it.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.unsaddle_creatures"
+            target="_blank"
+            >Unsaddle Creatures</a
+          >: Shift right click with an empty hand to retrieve a saddle from a
+          pig/strider.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.bottled_air"
+            target="_blank"
+            >Bottled Air</a
+          >: Filling a glass bottle underwater refills 1 air bubble.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.extra.tools_in_bundles"
+            target="_blank"
+            >Tools in Bundles</a
+          >: Allows storing up to 8 nonstackable items in a bundle, as long as
+          nothing else is stored.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#weird_tweaks.blaze_fertilizer"
+            target="_blank"
+            >Blaze Powder Grows Nether Wart</a
+          >: Blaze powder behaves as bone meal for nether wart.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Item Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#betterbonemeal"
+            target="_blank"
+            >betterBonemeal</a
+          >: Bonemeal can be used to grow sugarcane, cactus and lily pads.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.extract_furnace_xp"
+            target="_blank"
+            >Extract Furnace Experience</a
+          >: Allows clicking on the empty output slot of a furnace to extract
+          the experience, instead of needing to break it. Useful if extracting
+          output items with e.g. a hopper.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.bush_walk_doesnt_hurt_when_sneaking"
+            target="_blank"
+            >Bush Walk Doesn't Hurt When Sneaking</a
+          >: Makes walking through berry bushes when sneaking not deal damage.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.campfires_ignite_entities"
+            target="_blank"
+            >Campfires Ignite Entities</a
+          >: Campfires will set fire to mobs standing on them, therefore also
+          cooking them.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.campfires_place_unlit"
+            target="_blank"
+            >Campfires Place Unlit</a
+          >: Campfires are unlit when placed and must be lit with a Flint and
+          Steel.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.flammable_cobwebs"
+            target="_blank"
+            >Flammable Cobwebs</a
+          >: Cobwebs can burn.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.less_restrictive_note_blocks"
+            target="_blank"
+            >Less Restrictive Note Blocks</a
+          >: Allows note blocks to play if any block next to them has a nonsolid
+          face, instead of only if the block above is air. On the client, just
+          adjusts the note particle to fly the right direction.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.nether_cauldron"
+            target="_blank"
+            >Nether Cauldron</a
+          >: Water evaporates when being placed inside a cauldron in the nether.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.no_sneak_bypass"
+            target="_blank"
+            >No Sneak Bypass</a
+          >: Blocks which would normally not affect players when sneaking (magma
+          blocks) will. Berry bushes will still not affect players when sneaking
+          (as intended).
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.play_note_blocks_in_creative"
+            target="_blank"
+            >Play Note Blocks In Creative</a
+          >: Allows sneaking when punching note blocks to play them in Creative
+          mode. On the client, prevents the break effect from occurring as
+          usually happens with server-side break prevention.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.reverse_note_block_tuning"
+            target="_blank"
+            >Reverse Note Block Tuning</a
+          >: Sneaking while tuning a note block reduces its pitch rather than
+          increases.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.cactus_punching_hurts"
+            target="_blank"
+            >Cactus Punching Hurts</a
+          >: Breaking cactus with your hand will damage you the same as hugging
+          it.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.exact_note_block_tuning"
+            target="_blank"
+            >Exact Note Block Tuning</a
+          >: Right-clicking a note block with a stack of sticks sets its pitch
+          to the size of the stack minus one.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.gradual_block_breaking"
+            target="_blank"
+            >Gradual Block Breaking</a
+          >: Snow layers and slabs will be mined a layer at a time.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.mechanism_muffling"
+            target="_blank"
+            >Mechanism Muffling</a
+          >: Placing a block of wool adjacent to a dispenser, dropper, or piston
+          makes it silent.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.spreadable_moss"
+            target="_blank"
+            >Spreadable Moss</a
+          >: Using bone meal on a stone block with a moss block nearby grows
+          moss to that block, to make it a bit easier to work with for building.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.directional_detector_rails"
+            target="_blank"
+            >Directional Detector Rails</a
+          >: Placing magenta glazed terracotta under a detector rail makes it
+          only detect minecarts moving in the direction of the arrow.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.directional_powered_rails"
+            target="_blank"
+            >Directional Powered Rails</a
+          >: Placing magenta glazed terracotta under a powered rail makes it
+          push minecarts in the direction of the arrow, even from a stop. They
+          also work as hard stops for carts going the wrong direction.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#chainstone"
+            target="_blank"
+            >chainStone</a
+          >: Chains will stick to each other on the long ends and will stick to
+          other blocks that connect to them directly.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#desertshrubs"
+            target="_blank"
+            >desertShrubs</a
+          >: Saplings turn into dead shrubs in hot climates and no water access.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#missingtools"
+            target="_blank"
+            >missingTools</a
+          >: Glass can be broken faster with pickaxes.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#movableamethyst"
+            target="_blank"
+            >movableAmethyst</a
+          >: Allows Budding Amethyst blocks to be moved. Allow for them to be
+          moved by pistons as well as adds extra drop when mining with silk
+          touch pickaxe.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#renewableblackstone"
+            target="_blank"
+            >renewableBlackstone</a
+          >: Nether basalt generator without soul sand below will convert into
+          blackstone instead.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#renewablecoral"
+            target="_blank"
+            >renewableCoral</a
+          >: Coral structures will grow with bonemeal from coral plants.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#renewabledeepslate"
+            target="_blank"
+            >renewableDeepslate</a
+          >: Lava and water generate deepslate and cobbled deepslate instead
+          below Y0.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Block Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#emptyshulkerboxstackalways"
+            target="_blank"
+            >emptyShulkerBoxStackAlways</a
+          >: Empty Shulker Boxes will always stack, even inside inventories.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Anvil Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.anvil_repair"
+            target="_blank"
+            >Anvil Repair</a
+          >: Allows right-clicking on an anvil with a Block of Iron to repair it
+          one stage.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Anvil Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.anvil_no_level_limit"
+            target="_blank"
+            >Anvil No Level Limit</a
+          >: Anvils don't become "Too Expensive".
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Anvil Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.anvil_rename_always_costs_one"
+            target="_blank"
+            >Anvil Rename Always Costs One</a
+          >: Makes renaming an item on an anvil always cost one level.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Anvil Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#renewableice"
+            target="_blank"
+            >renewableIce</a
+          >: 3 ice blocks stacked ontop of eachother make denser ice when
+          crushed by falling anvils. Frosted turns into normal, normal into
+          packed and packed into blue.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Anvil Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#renewablesand"
+            target="_blank"
+            >renewableSand</a
+          >: Cobblestone crushed by falling anvils makes sand.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispenserscarvepumpkins"
+            target="_blank"
+            >dispensersCarvePumpkins</a
+          >: Dispensers containing shears can carve pumpkins.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersfeedanimals"
+            target="_blank"
+            >dispensersFeedAnimals</a
+          >: Dispensers can feed animals if given their breeding item. Can also
+          feed flowers to brown mooshrooms to give them a suspicious stew
+          effect.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersfillminecarts"
+            target="_blank"
+            >dispensersFillMinecarts</a
+          >: Minecarts can be filled with hoppers, chests, tnt and furnace.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersmilkanimals"
+            target="_blank"
+            >dispensersMilkAnimals</a
+          >: Dispensers with empty buckets can milk cows/mooshrooms/goats, and
+          get mushroom/suspicious stew from mooshrooms with bowls.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersplayrecords"
+            target="_blank"
+            >dispensersPlayRecords</a
+          >: Dispensers can play records if there's a jukebox in front of them.
+          If a record already exists in the jukebox, it gets placed back in the
+          dispenser.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispenserspotplants"
+            target="_blank"
+            >dispensersPotPlants</a
+          >: Dispensers can put flowers in flower pots.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersstripblocks"
+            target="_blank"
+            >dispensersStripBlocks</a
+          >: Dispensers with axes can strip blocks. Can strip logs, remove
+          oxidation, and remove wax.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispenserstillsoil"
+            target="_blank"
+            >dispensersTillSoil</a
+          >: Dispensers with hoes can till soil.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#dispensersusecauldrons"
+            target="_blank"
+            >dispensersUseCauldrons</a
+          >: Dispensers can empty/fill cauldrons with buckets or bottles, and
+          undye leather armor/shulker boxes/banners.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#renewableendstone"
+            target="_blank"
+            >renewableEndstone</a
+          >: Dragon's breath from dispensers convert cobblestone to end stone.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Dispenser Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#renewablenetherrack"
+            target="_blank"
+            >renewableNetherrack</a
+          >: Fire charges from dispensers convert cobblestone to netherrack.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.feather_falling_no_trample"
+            target="_blank"
+            >Feather Falling No Trample</a
+          >: Farmland will not get trampled when wearing feather falling.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.tridents_in_void_return"
+            target="_blank"
+            >Tridents In Void Return</a
+          >: Makes Loyalty tridents immune to void damage, and causes them to
+          start their return timer upon falling into the void.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.channeling_two"
+            target="_blank"
+            >Channeling Two</a
+          >: Makes Channeling II a valid enchant that works while raining as
+          well.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.feather_falling_five"
+            target="_blank"
+            >Feather Falling V</a
+          >: Makes Feather Falling V a valid enchant that completely negates
+          fall damage.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.feather_falling_five_damages_boots"
+            target="_blank"
+            >Feather Falling V Damages Boots</a
+          >: Makes absorbing fall damage with Feather Falling V cause damage to
+          the boots.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.fire_aspect_is_flint_and_steel"
+            target="_blank"
+            >Fire Aspect Is Flint And Steel</a
+          >: Right-clicking a block with no action with a Fire Aspect tool
+          emulates a click with flint and steel, allowing you to light fires and
+          such with a Fire Aspect tool instead of having to carry around flint
+          and steel. Since it emulates clicking with a Flint and Steel, it's
+          highly compatible.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.infibows"
+            target="_blank"
+            >InfiBows</a
+          >: Makes Infinity bows not require an arrow in your inventory to fire.
+          If not present on client, firing bows with no arrows is a bit janky.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.protection_on_any_item"
+            target="_blank"
+            >Protection On Any Item</a
+          >: Protection can be applied to any enchantable item. It will
+          inclusively protect from:. Level 1: cactus, Level 2: fire, Level 3:
+          lava, Level 4: explosions.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.bedrock_impaling"
+            target="_blank"
+            >Bedrock-Like Impaling</a
+          >: Makes the Impaling enchantment act like it does in Bedrock Edition
+          and Combat Test 4. Namely, it deals bonus damage to anything that is
+          in water or rain (i.e. is wet), instead of only aquatic mobs.
+          Interacts with Enhanced Moistness.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.infinity_crossbows"
+            target="_blank"
+            >Infinity Crossbows</a
+          >
+          : Allow putting Infinity on crossbows. Only works for plain arrows.
+          Honors InfiBows.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.tridents_accept_power"
+            target="_blank"
+            >Tridents Accept Power</a
+          >: Allows tridents to accept the Power enchantment, increasing their
+          ranged damage. It's pitiful that tridents only deal as much damage as
+          an unenchanted bow and this cannot be improved at all other than via
+          Impaling, which is exclusive to aquatic mobs; notably, Drowned do not
+          count as aquatic mobs. Only the harmless squids, salmon, cod, tropical
+          fish, and the less harmless pufferfish and guardians count as
+          "aquatic". Power is considered incompatible with Sharpness and
+          Impaling.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Enchantment Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.tridents_accept_sharpness"
+            target="_blank"
+            >Tridents Accept Sharpness</a
+          >: Allows tridents to accept the Sharpness enchantment, increasing
+          their melee damage. See above for justification. Tridents deal 1 more
+          damage than a Netherite Sword, but this tweak only allows them to
+          accept Sharpness; no Smite, no Looting, etc. Sharpness is considered
+          incompatible with Power and Impaling.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Worldgen Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.no_dinnerlava"
+            target="_blank"
+            >No Dinnerlava</a
+          >: Disables the generation of 1 block hidden lava pockets in the
+          Nether. They were initially added to discourage stripmining in the
+          Nether for quartz, but now that Netherite exists, which can only be
+          reasonably obtained via stripmining, it's just frustrating for no real
+          reason.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Structure Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#huskspawningintemples"
+            target="_blank"
+            >huskSpawningInTemples</a
+          >: Only husks spawn in desert temples.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Structure Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#strayspawninginigloos"
+            target="_blank"
+            >straySpawningInIgloos</a
+          >: Only strays spawn in igloos.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Entity Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.no_heavy_minecarts"
+            target="_blank"
+            >No Heavy Minecarts</a
+          >: Chest and hopper minecarts will not be slowed down proportionally
+          to the number of items in them.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Entity Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.furnace_minecart_any_fuel"
+            target="_blank"
+            >Furnace Minecart Accepts Any Fuel</a
+          >: Allows furnace minecarts to accept any furnace fuel, rather than
+          just coal and charcoal.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Entity Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.toggleable_furnace_carts"
+            target="_blank"
+            >Toggleable Furnace Carts</a
+          >: Powered rails stop furnace carts when appropriate and conserve
+          their fuel.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Entity Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.enhanced_moistness"
+            target="_blank"
+            >Enhanced Moistness</a
+          >: Entities are considered "wet" for 5 seconds after leaving a source
+          of wetness. Additionally, lingering or splash water bottles inflict
+          wetness. Also makes wet entities drip to show they're wet. Affects
+          various vanilla mechanics including fire and undead burning. Touching
+          lava instantly removes wetness, meaning lava blades still work.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.spiders_cant_climb_glazed_terracotta"
+            target="_blank"
+            >Spiders Can't Climb Glazed Terracotta</a
+          >: Makes spiders unable to climb glazed terracotta, to make farming
+          them less of a chore if you go to the trouble to make glazed
+          terracotta. Logic: Slime blocks can't stick to glazed terracotta. Are
+          spiders really stickier than solid slime?
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#mechanics.wool_protected_sheep"
+            target="_blank"
+            >Wool Protected Sheep</a
+          >: Sheep wool slightly reduces some types of damage.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#balance.extra.ender_dragon_always_spawn_egg"
+            target="_blank"
+            >Ender Dragon Always Spawns Dragon Egg</a
+          >: Ender dragon always spawn a dragon egg when killed.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#persistentparrots"
+            target="_blank"
+            >persistentParrots</a
+          >: Parrots don't get of your shoulders until you receive proper damage
+          or go in water.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#renewablesponges"
+            target="_blank"
+            >renewableSponges</a
+          >: Guardians turn into Elder Guardian when struck by lightning.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#chickenshearing"
+            target="_blank"
+            >chickenShearing</a
+          >: Chickens can be sheared to get feathers. Beware! every time u shear
+          a chicken, it gets damaged! Baby chickens can't be sheared. Also works
+          with dispensers.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#renewablewitherskeletons"
+            target="_blank"
+            >renewableWitherSkeletons</a
+          >: Skeletons turn into wither skeletons when struck by lightning.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Mob Tweak</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#spiderjockeysdropgapples"
+            target="_blank"
+            >spiderJockeysDropGapples</a
+          >: Spider jockeys have a 30% chance to drop enchanted golden apples.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Mechanic Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.crawling"
+            target="_blank"
+            >Crawling</a
+          >: Adds a key to explicitly enter the "crawling" stance. No more
+          smushing yourself with a trapdoor. Needed on both the server and
+          client, but doesn't break vanilla clients. Honors the vanilla "Sneak"
+          Accessibility Option. Interacts with Utility > Toggle Stance.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+    </table>
+
+    <!-- Visual/Audio -->
+    <h2>Visual/Audio</h2>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Mod</th>
+      </tr>
+      <tr>
+        <td>UI Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#fixes.use_player_list_name_in_tag"
+            target="_blank"
+            >Use Player List Name In Tag</a
+          >: Changes player name tags to match names in the player list. Good in
+          combination with nickname mods.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#fixes.no_night_vision_flash"
+            target="_blank"
+            >No Night Vision Flashing</a
+          >: Disables the flashing effect when Night Vision is about to run out.
+          Makes it just slowly fade out instead.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#fixes.omniscent_player"
+            target="_blank"
+            >Omniscent Player</a
+          >: The player render in the inventory follows your cursor, even if
+          it's not inside the game window.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.fullres_banner_shields"
+            target="_blank"
+            >Fullres Banner Shields</a
+          >: Makes shields use the full-res banner patterns instead of weird
+          smaller versions. Compatible with custom patterns and resource packs.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.legible_signs"
+            target="_blank"
+            >Legible Signs</a
+          >: Adjusts sign text colors to be less garbage.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.less_annoying_fire"
+            target="_blank"
+            >Less Annoying Fire</a
+          >: Makes the "on fire" overlay half as tall, and removes it completely
+          if you have Fire Resistance.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.normal_fog_with_night_vision"
+            target="_blank"
+            >Normal Fog With Night Vision</a
+          >: Disables the fog brightening effect with Night Vision.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#woina.more_explosion_particles"
+            target="_blank"
+            >More Explosion Particles</a
+          >: Adds smoke and poof particles to explosions.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual Addition</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.note_block_notes"
+            target="_blank"
+            >Note Block Notes</a
+          >: Tells you the note the note block has been tuned to when tuning it
+          or playing it manually above your hotbar. Also shows the octave, and
+          shows the correct note for the snare and click instruments.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.alt_absorption_sound"
+            target="_blank"
+            >Alt Absorption Sound</a
+          >: Taking damage that is completely absorbed by Absorption plays a
+          different (custom) sound.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.long_levelup_sound_at_30"
+            target="_blank"
+            >Long Level Up Sound At 30</a
+          >: Plays the old longer level up sound when you reach level 30.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.note_blocks_play_on_landing"
+            target="_blank"
+            >Note Blocks Play On Landing</a
+          >: Makes note blocks play when landed on. The higher the entity fell,
+          the louder the note will be. Also triggers Observers.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#weird_tweaks.disable_equip_sound"
+            target="_blank"
+            >Disable Equip Sound</a
+          >: Disables the unnecessary "Gear equips" sound that plays when your
+          hands change, and is often glitchily played every tick. Armor equip
+          sounds and other custom equip sounds remain unchanged. You won't even
+          notice it's gone. On client, mutes it just for you. On server,
+          prevents the sound from playing at all for everyone.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Tweak</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#woina.extra.oof"
+            target="_blank"
+            >Oof</a
+          >: Brings back the old "Oof" hurt sound. Unlike the resource pack
+          approach, this is player-specific rather than replacing the generic
+          fleshy damage sound, so it won't result in random things Oof-ing.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Addition</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.ender_pearl_sound"
+            target="_blank"
+            >Ender Pearl Sound</a
+          >: Ender pearls play enderman teleport sound when breaking.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Audio Addition</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.ghast_panic"
+            target="_blank"
+            >Ghast Panic</a
+          >: Makes ghasts randomly play the unused "scream" sound when outside
+          of the Nether.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Visual/Audio Addition</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#tweaks.cracking_spawn_eggs"
+            target="_blank"
+            >Cracking Spawn Eggs</a
+          >: Spawn eggs spawn cracking particles and play a sound when used.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+    </table>
+
+    <!-- Technical -->
+    <h2>Technical</h2>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Mod</th>
+      </tr>
+      <tr>
+        <td>Performance</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#fixes.uncap_menu_fps"
+            target="_blank"
+            >Uncap Menu FPS</a
+          >: Removes the hardcoded 60 FPS cap in menu screens, instead using
+          whatever you have the framerate cap set to.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Performance</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#lagfreespawning"
+            target="_blank"
+            >lagFreeSpawning</a
+          >: Spawning requires much less CPU and Memory.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Performance</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#optimizedtnt"
+            target="_blank"
+            >optimizedTNT</a
+          >: TNT causes less lag when exploding in the same spot and in liquids.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Collision</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#minor_mechanics.extra.collision_based_landing_pos"
+            target="_blank"
+            >Collision Based Landing Pos</a
+          >: More accurately determines what the player is standing on. e.g.
+          with this you can't take fall damage on a slime block while landing on
+          an edge with air next to it.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.i_and_more"
+            target="_blank"
+            >/i And More</a
+          >: Adds /i, /item, /more, and /fenchant commands. /i and /item are
+          shorthand for /give to yourself, and /more increases the size of your
+          held item's stack. /fenchant is like /enchant but it ignores all
+          restrictions.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.legacy_command_syntax"
+            target="_blank"
+            >Legacy Command Syntax</a
+          >: Allows numeric arguments to /gamemode and /difficulty, re-adds
+          /toggledownfall, allows TitleCase arguments to /summon, allows numeric
+          arguments to commands that accept items like /give, and re-adds
+          shorthand to /xp.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.lenient_command_suggestions"
+            target="_blank"
+            >Lenient Command Suggestions</a
+          >: Command suggestions for modded ids will still appear even if the id
+          namespace is not explicitly specified.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.mods_command"
+            target="_blank"
+            >/mods Command</a
+          >: Adds a /mods command listing all mods on the server. Hovering over
+          the mods shows their descriptions, clicking on them takes you to their
+          homepage if they have one. If Bukkit is not present, also adds a
+          /plugins command suggesting people use /mods instead.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.taggable_players"
+            target="_blank"
+            >Taggable Players</a
+          >: Allows you to assign or unassign various "tags" from players via
+          /fabrication tag. Click the link to learn more.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commanddistance"
+            target="_blank"
+            >commandDistance</a
+          >: Enables /distance command to measure in game distance between
+          points.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commanddraw"
+            target="_blank"
+            >commandDraw</a
+          >: Enables /draw commands for OPs, allowing to build shapes that are
+          normally difficult to build (circles, spheres, etc.).
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandinfo"
+            target="_blank"
+            >commandInfo</a
+          >Enables /info command for blocks.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandperimeterinfo"
+            target="_blank"
+            >commandPerimeterInfo</a
+          >: Enables /perimeterinfo command that scans the area around the block
+          for potential spawnable spots of the specified mob.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandplayer"
+            target="_blank"
+            >commandPlayer</a
+          >: Enables /player command for OPs, allowing to control/spawn
+          "players".
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandprofile"
+            target="_blank"
+            >commandProfile</a
+          >: Enables /profile command to monitor game performance.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandspawn"
+            target="_blank"
+            >commandSpawn</a
+          >: Enables /spawn command for OPs, enabling spawn tracking of mobs.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings#commandtick"
+            target="_blank"
+            >commandTick</a
+          >: Enables /tick command for OPs to control game clocks.
+        </td>
+        <td>Carpet</td>
+      </tr>
+      <tr>
+        <td>Commands</td>
+        <td>
+          <a
+            href="https://github.com/gnembon/carpet-extra#commandping"
+            target="_blank"
+            >commandPing</a
+          >: Enables /ping for players to get their ping.
+        </td>
+        <td>Carpet Extra</td>
+      </tr>
+      <tr>
+        <td>Chat Functionality</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.killmessage"
+            target="_blank"
+            >KillMessage</a
+          >: Adds a KillMessage NBT tag to entities and items, allowing them to
+          show a custom death message when they kill a player. Click the link to
+          learn more.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Chat Functionality</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.linkify_urls"
+            target="_blank"
+            >Linkify Urls</a
+          >: Links in chat are clickable.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Chat Functionality</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.extra.chat_markdown"
+            target="_blank"
+            >Chat Markdown</a
+          >: Adds bold, strikethrough, underscore and italic markdown to chat.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Chat Functionality</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.rmb_clears_text_fields"
+            target="_blank"
+            >RMB Clears Text Fields</a
+          >: Right Mouse Button will clear text fields.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Controls</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.toggle_sprint"
+            target="_blank"
+            >Toggle Sprint</a
+          >: Adds a "Toggle/Hold Sprint" keybind.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Controls</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.toggle_stance"
+            target="_blank"
+            >Toggle Stance</a
+          >: Adds a "Toggle Stance" keybind to switch between standing, sneaking
+          and crawling.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Debug Info</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.mob_ids"
+            target="_blank"
+            >Mob IDs</a
+          >: Makes entities show their entity ID as a nametag in Creative when
+          F3 is up.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+      <tr>
+        <td>Server</td>
+        <td>
+          <a
+            href="https://unascribed.com/fabrication/#utility.ping_privacy"
+            target="_blank"
+            >Ping Privacy</a
+          >: Sends no ping data to IPs that have not successfully logged in in
+          the last 7 days. Prevents scraping.
+        </td>
+        <td>Fabrication</td>
+      </tr>
+    </table>
+  </body>
+</html>

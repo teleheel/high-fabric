@@ -1,0 +1,13 @@
+name = "Sturdy Carts"
+filename = "sturdy-carts-1.0.3+MC1.19-1.19.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ReXcZnyI/versions/1.0.3+MC1.19-1.19.1/sturdy-carts-1.0.3%2BMC1.19-1.19.1.jar"
+hash-format = "sha1"
+hash = "4770ebfd51a38da6d2f0447e1f9cd1a96e4dda18"
+
+[update]
+[update.modrinth]
+mod-id = "ReXcZnyI"
+version = "rfKPMrFP"

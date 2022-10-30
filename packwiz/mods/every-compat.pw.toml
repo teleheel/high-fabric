@@ -1,0 +1,13 @@
+name = "Every Compat"
+filename = "everycomp-1.19.1-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef58b579d1295df44623d33ed41f921306e324bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3914519
+project-id = 628539

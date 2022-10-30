@@ -1,0 +1,13 @@
+name = "Transparent"
+filename = "transparent-5.1.0+1.19-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zp4jb9oQ/versions/5.1.0+1.19-fabric/transparent-5.1.0%2B1.19-fabric.jar"
+hash-format = "sha1"
+hash = "d05a64692bc025c77f6cec77ad251cd03e757491"
+
+[update]
+[update.modrinth]
+mod-id = "zp4jb9oQ"
+version = "oEmFtEYu"
