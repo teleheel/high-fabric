@@ -227,6 +227,11 @@ hash = "067ce28d816f9ecf8796dea0cb3ab4734683cd7ee0e80fa524af217c4c1ce381"
 metafile = true
 
 [[files]]
+file = "mods/better-stats.pw.toml"
+hash = "97f41d9ec0998c609dd9284f1818db903c24bb748b047d872b7a6145c09bd482"
+metafile = true
+
+[[files]]
 file = "mods/better-than-mending.pw.toml"
 hash = "c65fb7a6459404783860340cf31a4b20fa7b37f0f031a85372eb1bb509f27b3f"
 metafile = true
@@ -933,4 +938,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c07b4551a5f3e19db97ddbeffc3da7421cb999da8bb30e31763f536b70166b34"
+hash = "a8c719786f73d5ccd7d4283407966c24df04a70b6128f7a37b3422eaad557be0"

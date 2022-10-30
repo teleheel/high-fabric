@@ -4,7 +4,7 @@ A high fantasy fabric modpac
 
 **To download and play the modpack:**
 
-1. Create a new instance in MultiMC with Minecraft 1.19 and Fabric Loader 0.14.8.
+1. Create a new instance in MultiMC with Minecraft 1.19 and Fabric Loader 0.14.10.
 2. Download the packwiz-installer-bootstrap from [https://github.com/packwiz/packwiz-installer-bootstrap/releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and place it in the instance Minecraft folder.
 3. Right click the MultiMC instance, select `Edit Instance` and go to the `Settings`.
 4. Select the `Custom commands` tab, and check the box that says `Custom commands`.
@@ -17,7 +17,7 @@ A high fantasy fabric modpac
 2. Select the `Server` tab.
 3. Select the following options:
     - Minecraft Version: 1.19
-    - Loader Version: 0.14.8
+    - Loader Version: 0.14.10
     - Select Install Location: choose a location your server files
 
 4. Click `Install`
