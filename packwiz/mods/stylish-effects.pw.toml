@@ -1,13 +1,13 @@
 name = "Stylish Effects"
-filename = "StylishEffects-v4.0.1-1.19-Fabric.jar"
+filename = "StylishEffects-v4.3.2-1.19.2-Fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/onDuQF5e/versions/v4.0.1-1.19-Fabric/StylishEffects-v4.0.1-1.19-Fabric.jar"
+url = "https://cdn.modrinth.com/data/onDuQF5e/versions/bHJW6x3i/StylishEffects-v4.3.2-1.19.2-Fabric.jar"
 hash-format = "sha1"
-hash = "1cad8af5aa1ce33d7e2f340abb62ffe02f19ad5a"
+hash = "72312f36e1bd46d439cd84fce98ba18313e36d17"
 
 [update]
 [update.modrinth]
 mod-id = "onDuQF5e"
-version = "hHr8NBB3"
+version = "bHJW6x3i"

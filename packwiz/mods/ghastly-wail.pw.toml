@@ -1,13 +1,13 @@
 name = "Ghastly Wail"
-filename = "ghastly-wail-1.0.8+MC1.18-1.19.1.jar"
+filename = "ghastly-wail-1.1.1+MC1.18-1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OKG5B6CF/versions/1.0.8+MC1.18-1.19.1/ghastly-wail-1.0.8%2BMC1.18-1.19.1.jar"
+url = "https://cdn.modrinth.com/data/OKG5B6CF/versions/1.1.1%2BMC1.18-1.19.2/ghastly-wail-1.1.1%2BMC1.18-1.19.2.jar"
 hash-format = "sha1"
-hash = "9756168f9f58516aaa47ca2cffa5ee3ac4b394fc"
+hash = "c8c2b9cdbc69ba4f7672e2ba708dc8cb713b6578"
 
 [update]
 [update.modrinth]
 mod-id = "OKG5B6CF"
-version = "9LYUaVQr"
+version = "GDvmpmic"

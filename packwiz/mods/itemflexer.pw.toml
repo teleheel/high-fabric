@@ -1,13 +1,13 @@
 name = "ItemFlexer"
-filename = "itemflexer-1.2.5.jar"
+filename = "itemflexer_1.19-1.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pOYa13DM/versions/2.1.5/itemflexer-1.2.5.jar"
+url = "https://cdn.modrinth.com/data/pOYa13DM/versions/6gNXSyJc/itemflexer_1.19-1.3.0.jar"
 hash-format = "sha1"
-hash = "34cc00bd0b98ed9388eb1178dad2208419155c07"
+hash = "e32c77965ff87f491706859ad852b854e0aea6f4"
 
 [update]
 [update.modrinth]
 mod-id = "pOYa13DM"
-version = "bJx8ZZp9"
+version = "6gNXSyJc"

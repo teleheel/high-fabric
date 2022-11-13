@@ -1,13 +1,13 @@
 name = "JLine for Dedicated Server"
-filename = "jline4mcdsrv-0.3.0.jar"
+filename = "jline4mcdsrv-0.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0fd1d9741c4966363208febc267a43131ba8e80"
+hash = "b84d790759b98ccb8fd34f8b14b703cc79a9b9ed"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3597431
+file-id = 3958604
 project-id = 392559

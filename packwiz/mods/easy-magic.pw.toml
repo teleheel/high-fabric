@@ -1,13 +1,13 @@
 name = "Easy Magic"
-filename = "EasyMagic-v4.0.0-1.19-Fabric.jar"
+filename = "EasyMagic-v4.3.2-1.19.2-Fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9hx3AbJM/versions/v4.0.0-1.19-Fabric/EasyMagic-v4.0.0-1.19-Fabric.jar"
+url = "https://cdn.modrinth.com/data/9hx3AbJM/versions/8aLDK0o2/EasyMagic-v4.3.2-1.19.2-Fabric.jar"
 hash-format = "sha1"
-hash = "a214ac38c7ec3020826b38d1fb894ce55c58c0c2"
+hash = "a562bfc343aa203d692fc82ee36ea445b0557241"
 
 [update]
 [update.modrinth]
 mod-id = "9hx3AbJM"
-version = "TN6I1kVF"
+version = "8aLDK0o2"
