@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/modmenu.json"
+hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "b92a08e1bcd540e972238d9744b2b85df361df4eeaeeaec993be62c33507054a"
 metafile = true
@@ -9,3 +13,7 @@ metafile = true
 file = "mods/modmenu.pw.toml"
 hash = "e00217e8327711e7d6acf95814212d9398499bc15cde7a3ec4ca4417393a8fbc"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "c706c7e0e3c459b4583bcc76f399b5f1ab0094daf10e38282d461961219b11eb"
