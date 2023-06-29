@@ -1,16 +1,13 @@
 name = "High Fabric"
-author = "teleheel"
+author = "Teleheel"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2661a6c3b39b524acd2c0817f086cebdba452b412de86fbcfdd4f24691414ca4"
+hash = "c49d3820fd2ac9375706d4c7a6f78fdc9163a43f2e8bd26e696b44f5e080b1fe"
 
 [versions]
-fabric = "0.14.10"
-minecraft = "1.19.2"
-
-[options]
-acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
+fabric = "0.14.21"
+minecraft = "1.20.1"
