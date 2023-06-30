@@ -3,6 +3,9 @@ guiScale:3
 fullscreen:true
 directionalAudio:true
 darkMojangStudiosBackground:true
+operatorItemsTab:true
 tutorialStep:none
 realmsNotifications:false
 skipMultiplayerWarning:true
+joinedFirstServer:true
+onboardAccessibility:false
