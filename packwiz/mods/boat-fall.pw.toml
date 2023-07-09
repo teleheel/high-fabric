@@ -1,0 +1,13 @@
+name = "Boat Fall"
+filename = "boat-fall-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R1GcscrS/versions/ZQZpDbsJ/boat-fall-1.1.4.jar"
+hash-format = "sha1"
+hash = "20362cf4a2c44d0b8c1cf49e9cefc15f2ab342ce"
+
+[update]
+[update.modrinth]
+mod-id = "R1GcscrS"
+version = "ZQZpDbsJ"

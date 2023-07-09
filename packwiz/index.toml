@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/crowdin.txt"
+hash = "6b4d7eb81f36519c9672a2af5007a85501e33752d6e37edc509c3cea2b312215"
+
+[[files]]
+file = "config/debugify.json"
+hash = "d968973d6a52653c37b1663b52b60ae9349a93542cd6e634848e47e16ae8fa73"
+
+[[files]]
 file = "config/enhanced_bes.properties"
 hash = "fb93a2d5d2ad9a0ee5d3705ae6a301ec403b1c26fc36f6178f05a8ab822d9fe7"
 
@@ -13,8 +21,33 @@ file = "config/modmenu.json"
 hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
 
 [[files]]
+file = "mods/antighost.pw.toml"
+hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
+metafile = true
+
+[[files]]
+file = "mods/axolotl-bucket-fix.pw.toml"
+hash = "da70e08f6ed19b62b544bbf09b64968c161151b149f4f1231073ad2f29697471"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "e1cb00f094495e57ee1083f811a482075caebebb51269b6374512bf02cacff1f"
+metafile = true
+
+[[files]]
+file = "mods/boat-fall.pw.toml"
+hash = "a50e02b46ffa05fd3805b901ae5fd71f1aefc6c60137816eec08f7394c6220d7"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
 metafile = true
 
 [[files]]
@@ -53,6 +86,16 @@ hash = "03e174cf691b52da20bd973b955fae6f3720d3d2120f9d6cc1de5fdf3180013c"
 metafile = true
 
 [[files]]
+file = "mods/fixbookgui.pw.toml"
+hash = "ff546737f6368601ad612aece127585fb444187b9bf860d430bd57a6d4d47f2c"
+metafile = true
+
+[[files]]
+file = "mods/headfix.pw.toml"
+hash = "5ba85e15fd70b8f68009ec186702495fe611a7a8ef389a04e9eda57a55eca94e"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
 metafile = true
@@ -78,6 +121,11 @@ hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "e00217e8327711e7d6acf95814212d9398499bc15cde7a3ec4ca4417393a8fbc"
 metafile = true
@@ -85,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "6d813994b3eda187ae08b36561b60205de365852e2163f323c4c0ee283816ac6"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "ae96a2a2fee44e370682e2ee015e25c49462313a6865b3e029703b19ac5cead6"
 metafile = true
 
 [[files]]
@@ -110,6 +163,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "2cff9d338f25408ade4a747bd11a5d8a328bd007ae4505e70e971113351f0432"
 metafile = true
 
 [[files]]
