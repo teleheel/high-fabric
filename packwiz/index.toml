@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/borderlessmining.json"
+hash = "7c47862b98890f793c72476c7f2f805ff6404c4dc37c90465a82007be49e95fd"
+
+[[files]]
 file = "config/crowdin.txt"
 hash = "6b4d7eb81f36519c9672a2af5007a85501e33752d6e37edc509c3cea2b312215"
 
@@ -21,8 +25,17 @@ file = "config/modmenu.json"
 hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
 
 [[files]]
+file = "config/spark/config.json"
+hash = "808735d966e11fe08ccae1cf008c2e1a121b9fcfbf6a48150c5975cd27efa0cf"
+
+[[files]]
 file = "mods/antighost.pw.toml"
 hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.pw.toml"
+hash = "cea9d72f42127f4974afc7120d99dd4042d7342129d465ea4afb11f334749b61"
 metafile = true
 
 [[files]]
@@ -41,8 +54,23 @@ hash = "a50e02b46ffa05fd3805b901ae5fd71f1aefc6c60137816eec08f7394c6220d7"
 metafile = true
 
 [[files]]
+file = "mods/borderless-mining.pw.toml"
+hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
+metafile = true
+
+[[files]]
+file = "mods/controlify.pw.toml"
+hash = "ad1c760cb678da4bc065a124c45bac85d47124be7b9eb267e88a73f3bbc9d13a"
+metafile = true
+
+[[files]]
+file = "mods/cyanide.pw.toml"
+hash = "f45d7cd223f352cc6c05c5ad8ae5b9f90c9cbfbc5ba401eb55faf29d1d87e662"
 metafile = true
 
 [[files]]
@@ -91,6 +119,11 @@ hash = "ff546737f6368601ad612aece127585fb444187b9bf860d430bd57a6d4d47f2c"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "dd95cf09d9a642a0914a01790dee89b72963e088a4ceb88e206efea6998b03a4"
+metafile = true
+
+[[files]]
 file = "mods/headfix.pw.toml"
 hash = "5ba85e15fd70b8f68009ec186702495fe611a7a8ef389a04e9eda57a55eca94e"
 metafile = true
@@ -121,6 +154,11 @@ hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
 
 [[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
 metafile = true
@@ -141,6 +179,11 @@ hash = "ae96a2a2fee44e370682e2ee015e25c49462313a6865b3e029703b19ac5cead6"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "a1d419cad5a32a4a442b37b2e2fe2db3e761429d6ab60dd3bb79f43d36df2297"
 metafile = true
@@ -151,6 +194,11 @@ hash = "1b9b1cdbacfeeb97f21981d5859af497bc5db6aebeb7e320f874111787d67c3a"
 metafile = true
 
 [[files]]
+file = "mods/screenshot-to-clipboard.pw.toml"
+hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "ea193a0081775b5b2dda289e12578c9122294ec6b6363dbfd7c1e7b5d2dfbd71"
 metafile = true
@@ -158,6 +206,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "217b07516517c4c01958387192143943f3e9309a0e935828f9f32af771425d66"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "7ca0983d3b7852c06f84c66b9f12da8115ff9b8ba63293cd20452377a0de726e"
 metafile = true
 
 [[files]]
