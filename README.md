@@ -29,7 +29,7 @@ A high fantasy fabric modpac
 10. Delete everything in `start.bat`, and then paste
 
         java -jar packwiz-installer-bootstrap.jar -g -s server https://teleheel.github.io/high-fabric/packwiz/pack.toml
-        java -Xmx4G -Xms4G -jar fabric-server-launch.jar nogui
+        java -Xmx4G -Xms4G -jar -Dlog4j.skipJansi=false fabric-server-launch.jar nogui
         Pause
 
 11. Run (double click) on `start.bat` to launch the server and automatically download and install the modpack.

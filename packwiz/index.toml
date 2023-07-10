@@ -29,6 +29,14 @@ file = "config/spark/config.json"
 hash = "808735d966e11fe08ccae1cf008c2e1a121b9fcfbf6a48150c5975cd27efa0cf"
 
 [[files]]
+file = "config/styledplayerlist/config.json"
+hash = "427d0986890bde8b34733c409de4b9925bf752b6a2df3cc93091088d7bb884e7"
+
+[[files]]
+file = "config/styledplayerlist/styles/highfabric.json"
+hash = "1ff21fd7dc54d3169e77f0f765100c08ba6b31dc62a4f02c643205ab4d4b2959"
+
+[[files]]
 file = "mods/antighost.pw.toml"
 hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
 metafile = true
@@ -134,6 +142,11 @@ hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
 metafile = true
 
 [[files]]
+file = "mods/jline-for-minecraft-dedicated-server.pw.toml"
+hash = "bf169a7b52efae48628b3235bce63de433c404b069ce02985af1a037071e7aa0"
+metafile = true
+
+[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
 metafile = true
@@ -189,6 +202,11 @@ hash = "a1d419cad5a32a4a442b37b2e2fe2db3e761429d6ab60dd3bb79f43d36df2297"
 metafile = true
 
 [[files]]
+file = "mods/restart-server.pw.toml"
+hash = "9c7aed2f43b48129ee2ca30b8840ba656aadd96cf3fb3c9b7f32c6d3ecfd7520"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "1b9b1cdbacfeeb97f21981d5859af497bc5db6aebeb7e320f874111787d67c3a"
 metafile = true
@@ -196,6 +214,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/sessility.pw.toml"
+hash = "af2bc2f9643e1fa031180f0f3aee3a56eb6f87125f8d7af129e5a136f88f7312"
 metafile = true
 
 [[files]]
@@ -216,6 +239,16 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "27c9ee50e624c436e1bb6fe4bbeff166f5c6564e9f9a846ffef22e54a200c603"
+metafile = true
+
+[[files]]
+file = "mods/tick-stasis.pw.toml"
+hash = "5a6e4cb2f7907958cc00174a6fae3c8705581d3b0b9fa607d55001e6fcff060d"
 metafile = true
 
 [[files]]
