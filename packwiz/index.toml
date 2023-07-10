@@ -37,6 +37,11 @@ file = "config/styledplayerlist/styles/highfabric.json"
 hash = "1ff21fd7dc54d3169e77f0f765100c08ba6b31dc62a4f02c643205ab4d4b2959"
 
 [[files]]
+file = "mods/amecs.pw.toml"
+hash = "33c7f61b3d555b4e44a0493b00cb48a04f7bfdb1666ddd335d0bf00f6941a4da"
+metafile = true
+
+[[files]]
 file = "mods/antighost.pw.toml"
 hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
 metafile = true
@@ -57,6 +62,16 @@ hash = "e1cb00f094495e57ee1083f811a482075caebebb51269b6374512bf02cacff1f"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "f2a3a436d5498e539230aa1936ac1009e4b140eda402b654b4a160431e7f517a"
+metafile = true
+
+[[files]]
+file = "mods/better-stats.pw.toml"
+hash = "6f4b7e267811112a7d5283ad01b561bf03b18b7aac242dd25d8c899adec5cfec"
+metafile = true
+
+[[files]]
 file = "mods/boat-fall.pw.toml"
 hash = "a50e02b46ffa05fd3805b901ae5fd71f1aefc6c60137816eec08f7394c6220d7"
 metafile = true
@@ -64,6 +79,11 @@ metafile = true
 [[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds.pw.toml"
+hash = "fc72ea877577e69c3e7d7fd70aa113b7bb7ad892e74940d241327281685952e2"
 metafile = true
 
 [[files]]
@@ -82,8 +102,23 @@ hash = "f45d7cd223f352cc6c05c5ad8ae5b9f90c9cbfbc5ba401eb55faf29d1d87e662"
 metafile = true
 
 [[files]]
+file = "mods/dark-loading-screen.pw.toml"
+hash = "97ca0b01ac6888486402018e7c95ec3b219a89c3338a416fd25418def5f51fa1"
+metafile = true
+
+[[files]]
+file = "mods/dcwa.pw.toml"
+hash = "e96c71e46932e7060f04e19145977c2ca71686f373273a8fae78f933a37b1b75"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
+metafile = true
+
+[[files]]
+file = "mods/draggable-lists.pw.toml"
+hash = "6def5f269d3f69656592f78adceb1b4c94047e68f3a332b95a51ac78d35c3e75"
 metafile = true
 
 [[files]]
@@ -159,6 +194,11 @@ metafile = true
 [[files]]
 file = "mods/lmd.pw.toml"
 hash = "ba3601db0cde83877beb8e4c53cdcb5168c7350724a2a568fcc957f6ad9223f2"
+metafile = true
+
+[[files]]
+file = "mods/loadingscreentips.pw.toml"
+hash = "f655899f1d3b362e0d5d993702a1530f45f73707fdbeeb60d635b919d06590f3"
 metafile = true
 
 [[files]]
