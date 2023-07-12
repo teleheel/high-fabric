@@ -1,0 +1,13 @@
+name = "Peek"
+filename = "peek-1.20.1-1.0.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TnOXNf5e/versions/yjaKLf4J/peek-1.20.1-1.0.5.jar"
+hash-format = "sha1"
+hash = "c9105bca6e0052547ac2526344bc3722c065de03"
+
+[update]
+[update.modrinth]
+mod-id = "TnOXNf5e"
+version = "yjaKLf4J"

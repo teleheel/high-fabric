@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "adc06ca99bdc9ecb6181f28dc38199e2bbc2d1907bf095de41a0e7e2842c98ea"
+
+[[files]]
 file = "config/borderlessmining.json"
 hash = "7c47862b98890f793c72476c7f2f805ff6404c4dc37c90465a82007be49e95fd"
 
@@ -13,6 +17,10 @@ file = "config/debugify.json"
 hash = "d968973d6a52653c37b1663b52b60ae9349a93542cd6e634848e47e16ae8fa73"
 
 [[files]]
+file = "config/emi.css"
+hash = "66b66813960fb26d2792a4ef5c1abc2373bcd6672afe7a228e93cce04b55fa33"
+
+[[files]]
 file = "config/enhanced_bes.properties"
 hash = "fb93a2d5d2ad9a0ee5d3705ae6a301ec403b1c26fc36f6178f05a8ab822d9fe7"
 
@@ -21,12 +29,32 @@ file = "config/fastquit.toml"
 hash = "de22af584433dfdfb4a14b85091bfbd5c6be697a306499c2d7c75740658dbad4"
 
 [[files]]
+file = "config/inventory_control_tweaks.json"
+hash = "ace641e902d238f396ffb06b2d09fc848f6394955b1a46fd6ed7705e8cbccb19"
+
+[[files]]
+file = "config/inventorysorter/config.json5"
+hash = "07a51e1c2ba3ec348e714d369ff72b0fa17611f1918f1637c2fcdfd78f4cc380"
+
+[[files]]
+file = "config/legendarytooltips-common.toml"
+hash = "10158e8ab2dcacf01be4fc49117762ed0e01c7413368d03ad5bb63d3a112c573"
+
+[[files]]
 file = "config/modmenu.json"
 hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
 
 [[files]]
+file = "config/peek/peek.properties"
+hash = "8aea0b69f0428fe2b1833973267d6b7bb853565fb088bf071b85355e8d88ad36"
+
+[[files]]
 file = "config/spark/config.json"
 hash = "808735d966e11fe08ccae1cf008c2e1a121b9fcfbf6a48150c5975cd27efa0cf"
+
+[[files]]
+file = "config/status-effect-bars.json"
+hash = "b119eded0edc47fbe6ac8f5253ae2315d66a97a99975dfabff43cdf466c9471a"
 
 [[files]]
 file = "config/styledplayerlist/config.json"
@@ -82,8 +110,18 @@ hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
 
 [[files]]
+file = "mods/charm-of-undying.pw.toml"
+hash = "28c89e02330b9f4ccb0a89051c217a1ff02c0de7e4c42044facb50715d025d7e"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "fc72ea877577e69c3e7d7fd70aa113b7bb7ad892e74940d241327281685952e2"
+metafile = true
+
+[[files]]
+file = "mods/clean-tooltips.pw.toml"
+hash = "b842b2d639f9144acdc25332393bf85c937b0a33b556e20562ec0d51f6a3719f"
 metafile = true
 
 [[files]]
@@ -132,6 +170,16 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "c3f1a1b50ae464543501b0be65590e43c498bcbac9196c413611b730a6c378b1"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4eec3de8a58a6e64ea96e31781b52f70b4b33ec02a34a45f171e3a1e6697ba86"
 metafile = true
@@ -162,6 +210,16 @@ hash = "ff546737f6368601ad612aece127585fb444187b9bf860d430bd57a6d4d47f2c"
 metafile = true
 
 [[files]]
+file = "mods/foodeffecttooltips.pw.toml"
+hash = "91f195b8e25d9dc9b932993476f2c1f9e9c6a8e9368668325b40e336a8d0f5d7"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
+metafile = true
+
+[[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "dd95cf09d9a642a0914a01790dee89b72963e088a4ceb88e206efea6998b03a4"
 metafile = true
@@ -172,8 +230,23 @@ hash = "5ba85e15fd70b8f68009ec186702495fe611a7a8ef389a04e9eda57a55eca94e"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "ca166dc5c6ff5dd4612a13bfe08d7351cc2815fa26a62cf84c42dc31fd860a6b"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
+metafile = true
+
+[[files]]
+file = "mods/inventory-control-tweaks.pw.toml"
+hash = "13a489bb96736dbb1f84199f5b1c1ca9517cce29079ccd9909baf28e5bb97793"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorting.pw.toml"
+hash = "82a7c9721c81c309d3c4dc2cf93ab12e1399894d03b738782ac04b0b7c232213"
 metafile = true
 
 [[files]]
@@ -184,6 +257,11 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
+metafile = true
+
+[[files]]
+file = "mods/legendary-tooltips.pw.toml"
+hash = "ca8bc817cf87c899bbe665e7c4f957fba798e09bc7a580d9d118fb648a3677aa"
 metafile = true
 
 [[files]]
@@ -199,6 +277,11 @@ metafile = true
 [[files]]
 file = "mods/loadingscreentips.pw.toml"
 hash = "f655899f1d3b362e0d5d993702a1530f45f73707fdbeeb60d635b919d06590f3"
+metafile = true
+
+[[files]]
+file = "mods/map-tooltip.pw.toml"
+hash = "9a632f5f26970ffc17b21f2f09b5409d9bf274a42d1a0099d91e865993e6e471"
 metafile = true
 
 [[files]]
@@ -227,6 +310,11 @@ hash = "6d813994b3eda187ae08b36561b60205de365852e2163f323c4c0ee283816ac6"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "669008dbd2508a67f8c409096cf2357de450f26a69494289e5852045ade7d358"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "ae96a2a2fee44e370682e2ee015e25c49462313a6865b3e029703b19ac5cead6"
 metafile = true
@@ -234,6 +322,21 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
+metafile = true
+
+[[files]]
+file = "mods/peek.pw.toml"
+hash = "733deb9f58853fc07c5704498fdfe7d8c5fe673d70771112f46b930ff87a974c"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "79f10a3401047a75ed9973287b0b74c8ff1fc0ceae67b0118c46aba1cf1ad93b"
+metafile = true
+
+[[files]]
+file = "mods/radiant-gear.pw.toml"
+hash = "f6d1e9e7ae5c58e553b7ed878a835b60516243663c0f9fb57c547f1ca61ba8ea"
 metafile = true
 
 [[files]]
@@ -262,6 +365,11 @@ hash = "af2bc2f9643e1fa031180f0f3aee3a56eb6f87125f8d7af129e5a136f88f7312"
 metafile = true
 
 [[files]]
+file = "mods/shulker-box-slot.pw.toml"
+hash = "2f718fff69fb8c952c52d37b1e429f63a84a93a6a64c28338f350d2ffe061b09"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "ea193a0081775b5b2dda289e12578c9122294ec6b6363dbfd7c1e7b5d2dfbd71"
 metafile = true
@@ -282,6 +390,11 @@ hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
 
 [[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "4fb915d2bc266c1ed7a0dce77e3da295305c5dbec7a7ae1d142b3abf621be309"
+metafile = true
+
+[[files]]
 file = "mods/styledplayerlist.pw.toml"
 hash = "27c9ee50e624c436e1bb6fe4bbeff166f5c6564e9f9a846ffef22e54a200c603"
 metafile = true
@@ -289,6 +402,16 @@ metafile = true
 [[files]]
 file = "mods/tick-stasis.pw.toml"
 hash = "5a6e4cb2f7907958cc00174a6fae3c8705581d3b0b9fa607d55001e6fcff060d"
+metafile = true
+
+[[files]]
+file = "mods/tooltip-tool-tips.pw.toml"
+hash = "25621018abb637d3d994465ba56b68517fc59f870ad44e00e46cc268faaaa097"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "5ad04a604b92754fcc7896310f1d201bc9f22bb70901a76504daa265b3f8745c"
 metafile = true
 
 [[files]]

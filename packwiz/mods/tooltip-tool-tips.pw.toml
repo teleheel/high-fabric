@@ -1,0 +1,13 @@
+name = "Tooltip Tool Tips"
+filename = "tooltip-tool-tips-1.1.0+fabric-mc1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1HbturJi/versions/Js43GpJC/tooltip-tool-tips-1.1.0%2Bfabric-mc1.20.jar"
+hash-format = "sha1"
+hash = "f626329b4396a556b7c577400bb82ddcb64948ab"
+
+[update]
+[update.modrinth]
+mod-id = "1HbturJi"
+version = "Js43GpJC"

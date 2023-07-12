@@ -1,0 +1,13 @@
+name = "Legendary Tooltips"
+filename = "LegendaryTooltips-1.20.1-fabric-1.4.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/atHH8NyV/versions/msfSSDAn/LegendaryTooltips-1.20.1-fabric-1.4.3.jar"
+hash-format = "sha1"
+hash = "9dd34037687be3cdde3f80bbaedb5dcce74f9622"
+
+[update]
+[update.modrinth]
+mod-id = "atHH8NyV"
+version = "msfSSDAn"
