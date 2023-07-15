@@ -5,6 +5,18 @@ file = "config/MouseTweaks.cfg"
 hash = "adc06ca99bdc9ecb6181f28dc38199e2bbc2d1907bf095de41a0e7e2842c98ea"
 
 [[files]]
+file = "config/advancementplaques-common.toml"
+hash = "a3064cc9d840653cdf9f18b75188b35f0d63f323f15929cfc2dfd3e9d7655456"
+
+[[files]]
+file = "config/appleskin.json5"
+hash = "ba89367ef54da7cb8d68142d7bf0ac335146bb6c9a90a3beb7dabc0653156655"
+
+[[files]]
+file = "config/autohud.json5"
+hash = "f187c9bc571e82c251d492e25c61595895d4c8dcd9f1de92539aa1abb5c2758b"
+
+[[files]]
 file = "config/borderlessmining.json"
 hash = "7c47862b98890f793c72476c7f2f805ff6404c4dc37c90465a82007be49e95fd"
 
@@ -15,6 +27,10 @@ hash = "6b4d7eb81f36519c9672a2af5007a85501e33752d6e37edc509c3cea2b312215"
 [[files]]
 file = "config/debugify.json"
 hash = "d968973d6a52653c37b1663b52b60ae9349a93542cd6e634848e47e16ae8fa73"
+
+[[files]]
+file = "config/dynamiccrosshair.json5"
+hash = "891ceb67d10f46fe98b3979c47fd32e426ad8fc2f1a3a6d97dbf7ff73e4fdb4d"
 
 [[files]]
 file = "config/emi.css"
@@ -35,6 +51,10 @@ hash = "ace641e902d238f396ffb06b2d09fc848f6394955b1a46fd6ed7705e8cbccb19"
 [[files]]
 file = "config/inventorysorter/config.json5"
 hash = "07a51e1c2ba3ec348e714d369ff72b0fa17611f1918f1637c2fcdfd78f4cc380"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "0af047f8f3e5fef2fec9e7df435e4c87e5f2cbe4d0bd7ac7b286528e2f6247dd"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
@@ -65,6 +85,11 @@ file = "config/styledplayerlist/styles/highfabric.json"
 hash = "1ff21fd7dc54d3169e77f0f765100c08ba6b31dc62a4f02c643205ab4d4b2959"
 
 [[files]]
+file = "mods/advancement-plaques.pw.toml"
+hash = "6037c6ebefbd1fddd60421fa18b281479f86a78d8b5d5d8608997e51ea091adf"
+metafile = true
+
+[[files]]
 file = "mods/amecs.pw.toml"
 hash = "33c7f61b3d555b4e44a0493b00cb48a04f7bfdb1666ddd335d0bf00f6941a4da"
 metafile = true
@@ -75,8 +100,18 @@ hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "6869de1ca55dc09beabb3c234727e84be4d4fbdcbad2c8081c03010713f374e1"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "cea9d72f42127f4974afc7120d99dd4042d7342129d465ea4afb11f334749b61"
+metafile = true
+
+[[files]]
+file = "mods/autohud.pw.toml"
+hash = "3d56be0b268c32cedaddb6825c7101738ead0a9a2b3aa44981526b3b8278a63c"
 metafile = true
 
 [[files]]
@@ -92,6 +127,11 @@ metafile = true
 [[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "f2a3a436d5498e539230aa1936ac1009e4b140eda402b654b4a160431e7f517a"
+metafile = true
+
+[[files]]
+file = "mods/better-mount-hud.pw.toml"
+hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
 metafile = true
 
 [[files]]
@@ -162,6 +202,16 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "c8c6a3893859d2f0e04ebf400c8ce8b47de21cfe6097996b5dde1561e92f3c80"
+metafile = true
+
+[[files]]
+file = "mods/dynamiccrosshair.pw.toml"
+hash = "0e68af7105417f91b9a54cfb2188bce17b36fbecf2b8918e3b074c9a854c48ca"
+metafile = true
+
+[[files]]
+file = "mods/dynamiccrosshaircompat.pw.toml"
+hash = "1bedeab6844634c895b125637a99b1d6024b70b1f0f8ecadc7467339905b38e5"
 metafile = true
 
 [[files]]
@@ -247,6 +297,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-sorting.pw.toml"
 hash = "82a7c9721c81c309d3c4dc2cf93ab12e1399894d03b738782ac04b0b7c232213"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "31f1fb4a75e779c0a3d39fc6c822236c006d89388a0a3a95e04fdaaf4ef5cc31"
 metafile = true
 
 [[files]]
@@ -340,6 +395,11 @@ hash = "f6d1e9e7ae5c58e553b7ed878a835b60516243663c0f9fb57c547f1ca61ba8ea"
 metafile = true
 
 [[files]]
+file = "mods/raised.pw.toml"
+hash = "9287bf3cac30edd8589cb334b14f8564f3b158622acdb7fb12f46ca845c63b9c"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "a1d419cad5a32a4a442b37b2e2fe2db3e761429d6ab60dd3bb79f43d36df2297"
 metafile = true
@@ -421,4 +481,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4412ecde2cb855198bc2890596fb8e74fbf2e8bf7ed83d092f53a428670fac5c"
+hash = "8ef66f10d854a8574dc6e4ccedad53325f9a10362a0b2e1ae15bbfddbd66156a"
