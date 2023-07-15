@@ -165,8 +165,18 @@ hash = "b842b2d639f9144acdc25332393bf85c937b0a33b556e20562ec0d51f6a3719f"
 metafile = true
 
 [[files]]
+file = "mods/clickable-advancements.pw.toml"
+hash = "e88a2a29f4554e15dab8ef1ea63fb145be653bb53b43171491f7d80ff511b23c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b9cc3ddd40c728549f8de8db2b211a534303018bf8c18d22871ad17f62c47118"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "204b3eb115e418bdad4f5f2e8ef49f0c8b8f10ad062ca10e05e1e8cde4de45ab"
 metafile = true
 
 [[files]]
@@ -360,6 +370,11 @@ hash = "e00217e8327711e7d6acf95814212d9398499bc15cde7a3ec4ca4417393a8fbc"
 metafile = true
 
 [[files]]
+file = "mods/morechathistory.pw.toml"
+hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "6d813994b3eda187ae08b36561b60205de365852e2163f323c4c0ee283816ac6"
 metafile = true
@@ -422,6 +437,11 @@ metafile = true
 [[files]]
 file = "mods/sessility.pw.toml"
 hash = "af2bc2f9643e1fa031180f0f3aee3a56eb6f87125f8d7af129e5a136f88f7312"
+metafile = true
+
+[[files]]
+file = "mods/show-me-what-you-got.pw.toml"
+hash = "73e522db6666ce4a96b69a93953553dc02d1bec4520f61207502f154ea6d608e"
 metafile = true
 
 [[files]]
