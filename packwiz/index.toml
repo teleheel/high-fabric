@@ -58,7 +58,7 @@ hash = "ace641e902d238f396ffb06b2d09fc848f6394955b1a46fd6ed7705e8cbccb19"
 
 [[files]]
 file = "config/inventorysorter/config.json5"
-hash = "07a51e1c2ba3ec348e714d369ff72b0fa17611f1918f1637c2fcdfd78f4cc380"
+hash = "11098f430cd1b9e53504832c2c2bed2f76e3cb8b4b516b72e4b3fd26e80b4e6d"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -67,6 +67,10 @@ hash = "0af047f8f3e5fef2fec9e7df435e4c87e5f2cbe4d0bd7ac7b286528e2f6247dd"
 [[files]]
 file = "config/legendarytooltips-common.toml"
 hash = "10158e8ab2dcacf01be4fc49117762ed0e01c7413368d03ad5bb63d3a112c573"
+
+[[files]]
+file = "config/mixtape.json"
+hash = "98ca900bf00f1cd9cb9df8d0f66b3b2ee647d55eba4de5ecc75e911f322903ac"
 
 [[files]]
 file = "config/modmenu.json"
@@ -78,7 +82,7 @@ hash = "8aea0b69f0428fe2b1833973267d6b7bb853565fb088bf071b85355e8d88ad36"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
-hash = "de0a140e9b101020001896d68bf0714c853ce212ae45b5250da43a72a5059798"
+hash = "b3cb13a5066528022a59fd858c895960ac835c4be50da8788b7df7ad62e27662"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -471,6 +475,11 @@ hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
 metafile = true
 
 [[files]]
+file = "mods/mixtape.pw.toml"
+hash = "0218318dc041ef2c3ffc58c9ee7a55a573c993fe049512b5a5728b1fa6beec17"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6c417b19bc836d7c516be0097261c49cf1a167951bb4744ec0f3cc0bd0d1d24a"
 metafile = true
@@ -642,4 +651,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "2e1d84f3174c0e3d3af6bc8bc172a48deed0b1a3e02c70f7d594ace5623e6544"
+hash = "497c52e57e5a3fb5338ce6435fec84dd9800be8930a70f5aaf8c6b2a7f7ab517"

@@ -17,8 +17,14 @@ key_key.antighost.reveal:key.keyboard.unknown
 key_key.cavedust.toggle:key.keyboard.unknown
 key_key.cavedust.reload:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
+key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.g
+key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.left.shift
+key_key.mixtape.skip:key.keyboard.unknown
+key_key.mixtape.pause:key.keyboard.unknown
+key_key.mixtape.play:key.keyboard.p
 key_key.raised.hud.down:key.keyboard.unknown
 key_key.raised.hud.up:key.keyboard.unknown
 key_key.raised.chat.down:key.keyboard.unknown
