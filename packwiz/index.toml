@@ -49,6 +49,10 @@ file = "config/fastquit.toml"
 hash = "de22af584433dfdfb4a14b85091bfbd5c6be697a306499c2d7c75740658dbad4"
 
 [[files]]
+file = "config/immersive-thunder-config.json5"
+hash = "4486af3a28654734f7e6118baa2587e8bc753fbbe505b81d96c69ca491f9b922"
+
+[[files]]
 file = "config/inventory_control_tweaks.json"
 hash = "ace641e902d238f396ffb06b2d09fc848f6394955b1a46fd6ed7705e8cbccb19"
 
@@ -71,6 +75,14 @@ hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
 [[files]]
 file = "config/peek/peek.properties"
 hash = "8aea0b69f0428fe2b1833973267d6b7bb853565fb088bf071b85355e8d88ad36"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "de0a140e9b101020001896d68bf0714c853ce212ae45b5250da43a72a5059798"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "65de293eb7f8ae277e12278595f3565e44bc3e3f33439072f7bf833182af403b"
 
 [[files]]
 file = "config/spark/config.json"
@@ -129,6 +141,11 @@ hash = "da70e08f6ed19b62b544bbf09b64968c161151b149f4f1231073ad2f29697471"
 metafile = true
 
 [[files]]
+file = "mods/bad-wither-no-cookie.pw.toml"
+hash = "d995fbc8df8eb912e605c199f7073cc37108f40be97b547ac70be8b89ef7a961"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "e1cb00f094495e57ee1083f811a482075caebebb51269b6374512bf02cacff1f"
 metafile = true
@@ -161,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
+file = "mods/cake-chomps.pw.toml"
+hash = "4c83bdf9e145f43d6613075b5ceffc98beb1ffe1ab1c77763a186d8a7cac043d"
 metafile = true
 
 [[files]]
@@ -204,6 +226,11 @@ hash = "204b3eb115e418bdad4f5f2e8ef49f0c8b8f10ad062ca10e05e1e8cde4de45ab"
 metafile = true
 
 [[files]]
+file = "mods/completeconfig.pw.toml"
+hash = "1b8b5db9fa8f6c4f842cd70a8350d3a3bfc467bfc284d53ae05c2a45d7adeb80"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "8e73f68cbcbff53b6a00c30f371fc34a63c2ac2240af4792008d67dce74fb507"
 metafile = true
@@ -234,8 +261,18 @@ hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
 metafile = true
 
 [[files]]
+file = "mods/ding.pw.toml"
+hash = "7c5259e9ac7df8366d01465703abcfbb38b59ab68c885cba988f259bea36afb2"
+metafile = true
+
+[[files]]
 file = "mods/draggable-lists.pw.toml"
 hash = "6def5f269d3f69656592f78adceb1b4c94047e68f3a332b95a51ac78d35c3e75"
+metafile = true
+
+[[files]]
+file = "mods/dripsounds-fabric.pw.toml"
+hash = "6992619452254eac894dbaaaff722c4dfa3d3576405f1b3c4d9782fe98aaf7e1"
 metafile = true
 
 [[files]]
@@ -354,6 +391,11 @@ hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
 metafile = true
 
 [[files]]
+file = "mods/immersivethunder.pw.toml"
+hash = "c1477ec187248d3dec6045047a8ae505cc24a3a130a03ee5667e2e56f3b4ad3b"
+metafile = true
+
+[[files]]
 file = "mods/indium.pw.toml"
 hash = "85daf558c36022a664c9e2bc3d9a9bc21cb9fa62977890f142c20ccc155eae36"
 metafile = true
@@ -414,6 +456,11 @@ hash = "f655899f1d3b362e0d5d993702a1530f45f73707fdbeeb60d635b919d06590f3"
 metafile = true
 
 [[files]]
+file = "mods/loud-leads.pw.toml"
+hash = "45316fb9c3c7a6aabe4405c75c04bd213198770c0f0b8fa662ec1387c0ae2847"
+metafile = true
+
+[[files]]
 file = "mods/map-tooltip.pw.toml"
 hash = "9a632f5f26970ffc17b21f2f09b5409d9bf274a42d1a0099d91e865993e6e471"
 metafile = true
@@ -469,8 +516,18 @@ hash = "e697002e593a54c31759e3849eaae1be9bcdff0d8ffc667c95d7fdf5bf59d979"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "83b476730dba8c3cdc9ee6ed4e0623f97bc116848aebfe3149eece321083b251"
+metafile = true
+
+[[files]]
 file = "mods/peek.pw.toml"
 hash = "733deb9f58853fc07c5704498fdfe7d8c5fe673d70771112f46b930ff87a974c"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "5027329d763899c40db5e3f389cfb2262d61d0037668c331db0cec1491c585d8"
 metafile = true
 
 [[files]]
@@ -536,6 +593,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "217b07516517c4c01958387192143943f3e9309a0e935828f9f32af771425d66"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "f013995011fd15f45fc2bbd28a63f70542008891a6dcfd7a955a2ab3e248460d"
 metafile = true
 
 [[files]]
