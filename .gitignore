@@ -5,3 +5,6 @@
 *.mrpack
 
 .vscode/
+
+# Excluded copied files
+*copy*

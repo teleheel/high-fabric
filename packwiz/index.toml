@@ -391,11 +391,6 @@ hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
 metafile = true
 
 [[files]]
-file = "mods/immersivethunder.pw.toml"
-hash = "c1477ec187248d3dec6045047a8ae505cc24a3a130a03ee5667e2e56f3b4ad3b"
-metafile = true
-
-[[files]]
 file = "mods/indium.pw.toml"
 hash = "85daf558c36022a664c9e2bc3d9a9bc21cb9fa62977890f142c20ccc155eae36"
 metafile = true
@@ -513,11 +508,6 @@ metafile = true
 [[files]]
 file = "mods/optigui.pw.toml"
 hash = "e697002e593a54c31759e3849eaae1be9bcdff0d8ffc667c95d7fdf5bf59d979"
-metafile = true
-
-[[files]]
-file = "mods/owo-lib.pw.toml"
-hash = "83b476730dba8c3cdc9ee6ed4e0623f97bc116848aebfe3149eece321083b251"
 metafile = true
 
 [[files]]
