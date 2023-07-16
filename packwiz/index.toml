@@ -95,6 +95,11 @@ hash = "33c7f61b3d555b4e44a0493b00cb48a04f7bfdb1666ddd335d0bf00f6941a4da"
 metafile = true
 
 [[files]]
+file = "mods/animatica.pw.toml"
+hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
+metafile = true
+
+[[files]]
 file = "mods/antighost.pw.toml"
 hash = "9f22660d287a6a3ded24f5df8f944972933f04651cb30c9acb2e62132f3ffcd2"
 metafile = true
@@ -160,6 +165,11 @@ hash = "fc72ea877577e69c3e7d7fd70aa113b7bb7ad892e74940d241327281685952e2"
 metafile = true
 
 [[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
+metafile = true
+
+[[files]]
 file = "mods/clean-tooltips.pw.toml"
 hash = "b842b2d639f9144acdc25332393bf85c937b0a33b556e20562ec0d51f6a3719f"
 metafile = true
@@ -177,6 +187,11 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "204b3eb115e418bdad4f5f2e8ef49f0c8b8f10ad062ca10e05e1e8cde4de45ab"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "8e73f68cbcbff53b6a00c30f371fc34a63c2ac2240af4792008d67dce74fb507"
 metafile = true
 
 [[files]]
@@ -240,13 +255,33 @@ hash = "c3f1a1b50ae464543501b0be65590e43c498bcbac9196c413611b730a6c378b1"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "b97c2e6418ccc906fdba8bf0318b97b8cd9cf66454064c5a37a662add9ab8d15"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4eec3de8a58a6e64ea96e31781b52f70b4b33ec02a34a45f171e3a1e6697ba86"
 metafile = true
 
 [[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "759451c84dd1dc8f7e0c9ac3210a2d69f19becc342834a58b18252d6e627b9c6"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "b92a08e1bcd540e972238d9744b2b85df361df4eeaeeaec993be62c33507054a"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "de9b5bac4165fb069bf6df9da2bb6028d50dd51fa0d294f0fb62d1d0c64b707b"
+metafile = true
+
+[[files]]
+file = "mods/fabricskyboxes.pw.toml"
+hash = "66b982a755b4d812e9792502e96672f2ef2d8ce4ef702d2bf86cf45d99a7ece0"
 metafile = true
 
 [[files]]
@@ -300,6 +335,11 @@ hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "85daf558c36022a664c9e2bc3d9a9bc21cb9fa62977890f142c20ccc155eae36"
+metafile = true
+
+[[files]]
 file = "mods/inventory-control-tweaks.pw.toml"
 hash = "13a489bb96736dbb1f84199f5b1c1ca9517cce29079ccd9909baf28e5bb97793"
 metafile = true
@@ -307,6 +347,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-sorting.pw.toml"
 hash = "82a7c9721c81c309d3c4dc2cf93ab12e1399894d03b738782ac04b0b7c232213"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "659e2447deffc797f441ed09c0b05d75138253dfacfe1479d3938e55773be4b6"
 metafile = true
 
 [[files]]
@@ -395,6 +440,11 @@ hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
 metafile = true
 
 [[files]]
+file = "mods/optigui.pw.toml"
+hash = "e697002e593a54c31759e3849eaae1be9bcdff0d8ffc667c95d7fdf5bf59d979"
+metafile = true
+
+[[files]]
 file = "mods/peek.pw.toml"
 hash = "733deb9f58853fc07c5704498fdfe7d8c5fe673d70771112f46b930ff87a974c"
 metafile = true
@@ -402,6 +452,11 @@ metafile = true
 [[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "79f10a3401047a75ed9973287b0b74c8ff1fc0ceae67b0118c46aba1cf1ad93b"
+metafile = true
+
+[[files]]
+file = "mods/puzzle.pw.toml"
+hash = "a6e087aa1beacb72cbfd77e442c78329b8a3c8af71cd3833078ff4cc7186d64f"
 metafile = true
 
 [[files]]
@@ -501,4 +556,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8ef66f10d854a8574dc6e4ccedad53325f9a10362a0b2e1ae15bbfddbd66156a"
+hash = "2eba36249ec2b82f5dfe3985ea9871a11a57c947ad07d79361e6101c29cc0f40"

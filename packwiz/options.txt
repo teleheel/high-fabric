@@ -7,6 +7,7 @@ fullscreen:true
 darkMojangStudiosBackground:true
 guiScale:3
 maxFps:260
+resourcePacks:["vanilla","fabric","continuity:default","continuity:glass_pane_culling_fix"]
 tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
