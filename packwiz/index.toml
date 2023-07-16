@@ -17,6 +17,10 @@ file = "config/autohud.json5"
 hash = "f187c9bc571e82c251d492e25c61595895d4c8dcd9f1de92539aa1abb5c2758b"
 
 [[files]]
+file = "config/blur.json"
+hash = "8c96a2095ebf976c70d33ada8b6c16f8bc1de9337cc6018edae5a9345db3e690"
+
+[[files]]
 file = "config/borderlessmining.json"
 hash = "7c47862b98890f793c72476c7f2f805ff6404c4dc37c90465a82007be49e95fd"
 
@@ -145,6 +149,11 @@ hash = "6f4b7e267811112a7d5283ad01b561bf03b18b7aac242dd25d8c899adec5cfec"
 metafile = true
 
 [[files]]
+file = "mods/blur-fabric.pw.toml"
+hash = "5f53eb8d272bfec2c6f58d6d744397b8152d7561a370f1d6e7e1e495fc4a1e7a"
+metafile = true
+
+[[files]]
 file = "mods/boat-fall.pw.toml"
 hash = "a50e02b46ffa05fd3805b901ae5fd71f1aefc6c60137816eec08f7394c6220d7"
 metafile = true
@@ -152,6 +161,11 @@ metafile = true
 [[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "31274861cb2f560e5f4a7bb3c1d51b727d885686ce6cc03cca4c861fdc48caf8"
 metafile = true
 
 [[files]]
@@ -290,6 +304,11 @@ hash = "bd5311680997fada18e6492a91770fdc0762c718b3109820d67c1b019c2f1bf8"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "7d160f2096db6f3530dd5d35719b5362e8f3c0e2ac13d1f2412221d1a762f40f"
+metafile = true
+
+[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "88fea54c2bc4c3a0e65ec31a1f96b94ff1792e3362988fe719fa5e9de806f99a"
 metafile = true
@@ -362,6 +381,11 @@ metafile = true
 [[files]]
 file = "mods/jline-for-minecraft-dedicated-server.pw.toml"
 hash = "bf169a7b52efae48628b3235bce63de433c404b069ce02985af1a037071e7aa0"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "8bb36bbf7dbac0d531f6c308329109d29d95a83a2c0d972178655efd8afddf4b"
 metafile = true
 
 [[files]]
@@ -550,10 +574,20 @@ hash = "5ad04a604b92754fcc7896310f1d201bc9f22bb70901a76504daa265b3f8745c"
 metafile = true
 
 [[files]]
+file = "mods/visiblebarriers.pw.toml"
+hash = "d695c1fcc3c6df535d86d39e98605bff7bdc6a978c40e6b4274ba7ec2544471d"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "9b3fd0e07219491269f7977d4b42c3c4c9769f1c99cf1531e612265157ed7071"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "2cff9d338f25408ade4a747bd11a5d8a328bd007ae4505e70e971113351f0432"
 metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "2eba36249ec2b82f5dfe3985ea9871a11a57c947ad07d79361e6101c29cc0f40"
+hash = "2e1d84f3174c0e3d3af6bc8bc172a48deed0b1a3e02c70f7d594ace5623e6544"
