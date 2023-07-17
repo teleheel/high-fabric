@@ -135,6 +135,11 @@ hash = "cea9d72f42127f4974afc7120d99dd4042d7342129d465ea4afb11f334749b61"
 metafile = true
 
 [[files]]
+file = "mods/auto-third-person.pw.toml"
+hash = "ac9902b13c6cfa1e4ccb03a5c073be31de01c89f6f8ad3a88a909933fb69056d"
+metafile = true
+
+[[files]]
 file = "mods/autohud.pw.toml"
 hash = "3d56be0b268c32cedaddb6825c7101738ead0a9a2b3aa44981526b3b8278a63c"
 metafile = true
@@ -267,6 +272,11 @@ metafile = true
 [[files]]
 file = "mods/ding.pw.toml"
 hash = "7c5259e9ac7df8366d01465703abcfbb38b59ab68c885cba988f259bea36afb2"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "f438dc8ebf458a05ebd69a902b0b471adba17576e993ac6305231b615e7fc56a"
 metafile = true
 
 [[files]]
