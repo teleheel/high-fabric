@@ -270,6 +270,11 @@ hash = "e96c71e46932e7060f04e19145977c2ca71686f373273a8fae78f933a37b1b75"
 metafile = true
 
 [[files]]
+file = "mods/death-knell.pw.toml"
+hash = "e5f741081d39cad153d6af8379d1d54750c6eac49c0ef2294bc8d1b01bd4b172"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
 metafile = true
@@ -587,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "a1d419cad5a32a4a442b37b2e2fe2db3e761429d6ab60dd3bb79f43d36df2297"
+metafile = true
+
+[[files]]
+file = "mods/replymod.pw.toml"
+hash = "8eb1b585d74cd3910da97939441d3ccf1b6c5d83d9e01ca095a474dacb04d3a2"
 metafile = true
 
 [[files]]

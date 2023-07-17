@@ -1,0 +1,13 @@
+name = "Reply Mod"
+filename = "reply-mod-1.3.0+1.20+.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1KHXVgOU/versions/XheQn0ON/reply-mod-1.3.0%2B1.20%2B.jar"
+hash-format = "sha1"
+hash = "352f24afad367ae16df7cc177d7c9ef5139a246d"
+
+[update]
+[update.modrinth]
+mod-id = "1KHXVgOU"
+version = "XheQn0ON"
