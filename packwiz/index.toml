@@ -130,6 +130,11 @@ hash = "6869de1ca55dc09beabb3c234727e84be4d4fbdcbad2c8081c03010713f374e1"
 metafile = true
 
 [[files]]
+file = "mods/attributefix.pw.toml"
+hash = "a237b4b38a245438976718e0dcdd5246fc84f3dff1f6d65e03e4b86b4b10e201"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "cea9d72f42127f4974afc7120d99dd4042d7342129d465ea4afb11f334749b61"
 metafile = true
@@ -497,6 +502,11 @@ metafile = true
 [[files]]
 file = "mods/map-tooltip.pw.toml"
 hash = "9a632f5f26970ffc17b21f2f09b5409d9bf274a42d1a0099d91e865993e6e471"
+metafile = true
+
+[[files]]
+file = "mods/max-health-fix.pw.toml"
+hash = "94d853654889c7d54edfea2df35d07ec8a365c365174473e4d21161c119625a0"
 metafile = true
 
 [[files]]
