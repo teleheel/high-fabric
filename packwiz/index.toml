@@ -695,6 +695,11 @@ hash = "9b3fd0e07219491269f7977d4b42c3c4c9769f1c99cf1531e612265157ed7071"
 metafile = true
 
 [[files]]
+file = "mods/where-items-owo.pw.toml"
+hash = "7fb5c462d9e9f582831c6f8792f3ee42c66530467920793e18c25c79d490f728"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "2cff9d338f25408ade4a747bd11a5d8a328bd007ae4505e70e971113351f0432"
 metafile = true

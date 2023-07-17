@@ -1,0 +1,13 @@
+name = "Where-Is-My-Stuff"
+filename = "where-is-my-stuff-1.1.3+1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JV1NYdVY/versions/ie4tVgZX/where-is-my-stuff-1.1.3%2B1.20.jar"
+hash-format = "sha1"
+hash = "1eb25ce568eeafd6aa3eaaeb0fa6cf22fcdfb850"
+
+[update]
+[update.modrinth]
+mod-id = "JV1NYdVY"
+version = "ie4tVgZX"
