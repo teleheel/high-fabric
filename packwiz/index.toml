@@ -185,6 +185,11 @@ hash = "a50e02b46ffa05fd3805b901ae5fd71f1aefc6c60137816eec08f7394c6220d7"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "7a8878adad1c35daaba04095a2a52b56b7263f1042e2273419cc82475bbd9903"
+metafile = true
+
+[[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
 metafile = true
@@ -315,6 +320,11 @@ hash = "b8270928d44781b9e59982d376bb3cc0d24089ceebef3c79d3e1e881ba7ece60"
 metafile = true
 
 [[files]]
+file = "mods/effect-tooltips.pw.toml"
+hash = "792e16ab16d2988eac18acbddd42b11cc2b06cc0d1ad29b30ec914c07a960ad6"
+metafile = true
+
+[[files]]
 file = "mods/elytra-slot.pw.toml"
 hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
 metafile = true
@@ -322,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "c3f1a1b50ae464543501b0be65590e43c498bcbac9196c413611b730a6c378b1"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "d303f1caa07efe66114aa67eafbd28f1385d7db3b7d8a8021924e4d382e13ed2"
 metafile = true
 
 [[files]]
@@ -632,6 +647,11 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "4fb915d2bc266c1ed7a0dce77e3da295305c5dbec7a7ae1d142b3abf621be309"
+metafile = true
+
+[[files]]
+file = "mods/straighten-up.pw.toml"
+hash = "23adeffabbfdf80a18162431e7e778548d913088dea82a947823fcf1a3f16989"
 metafile = true
 
 [[files]]
