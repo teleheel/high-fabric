@@ -45,6 +45,10 @@ file = "config/enhanced_bes.properties"
 hash = "fb93a2d5d2ad9a0ee5d3705ae6a301ec403b1c26fc36f6178f05a8ab822d9fe7"
 
 [[files]]
+file = "config/fabrication/features.ini"
+hash = "7f2f6002eb2e013d85c466ccfec8ee1a712310e16be6df483da922cd63023bcf"
+
+[[files]]
 file = "config/fastquit.toml"
 hash = "de22af584433dfdfb4a14b85091bfbd5c6be697a306499c2d7c75740658dbad4"
 
@@ -372,6 +376,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "de9b5bac4165fb069bf6df9da2bb6028d50dd51fa0d294f0fb62d1d0c64b707b"
+metafile = true
+
+[[files]]
+file = "mods/fabrication.pw.toml"
+hash = "2d2e46755efb50ba3f8ec9e2a49c854b76dd5c31cd64ad526a435d07f6259267"
 metafile = true
 
 [[files]]
