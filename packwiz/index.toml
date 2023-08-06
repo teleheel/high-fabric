@@ -117,6 +117,10 @@ file = "config/spark/config.json"
 hash = "808735d966e11fe08ccae1cf008c2e1a121b9fcfbf6a48150c5975cd27efa0cf"
 
 [[files]]
+file = "config/spyglass-improvements/settings.json"
+hash = "31fc47b995ea2df5af5fecb091d8e03ea3b6682ea8c34772ffc07abd36da5a06"
+
+[[files]]
 file = "config/status-effect-bars.json"
 hash = "b119eded0edc47fbe6ac8f5253ae2315d66a97a99975dfabff43cdf466c9471a"
 
@@ -204,8 +208,18 @@ hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
 metafile = true
 
 [[files]]
+file = "mods/better-nether-map.pw.toml"
+hash = "91cb77aca838a3456212796c727067e16d82997708d60a7a33673b404df82065"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "6f4b7e267811112a7d5283ad01b561bf03b18b7aac242dd25d8c899adec5cfec"
+metafile = true
+
+[[files]]
+file = "mods/bettertrims.pw.toml"
+hash = "068a01c95fd09d1e56061b30d665b4f1a1becd1e0f2ce29d7542556064f49b1c"
 metafile = true
 
 [[files]]
@@ -394,6 +408,11 @@ hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
 metafile = true
 
 [[files]]
+file = "mods/elytra-trims.pw.toml"
+hash = "7d7504f968b0e671c01971dafb640f9822c0ce63893665f39e02d55d10cf697d"
+metafile = true
+
+[[files]]
 file = "mods/elytrabombing.pw.toml"
 hash = "4c2825e43f1233267cb4fe1613cc99e37c55da8b39b3e794ab424b17c9564da1"
 metafile = true
@@ -406,6 +425,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "d303f1caa07efe66114aa67eafbd28f1385d7db3b7d8a8021924e4d382e13ed2"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-lore.pw.toml"
+hash = "5e5b41dc332f3090bb716738e51d95bdf7f6869651d2b125f1178eb513508d1f"
 metafile = true
 
 [[files]]
@@ -744,6 +768,11 @@ hash = "7ca0983d3b7852c06f84c66b9f12da8115ff9b8ba63293cd20452377a0de726e"
 metafile = true
 
 [[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "4d864bdfc5a507071a1d63c49256481b1198d7275adc6312b6e278f1aa601775"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
@@ -756,6 +785,11 @@ metafile = true
 [[files]]
 file = "mods/straighten-up.pw.toml"
 hash = "23adeffabbfdf80a18162431e7e778548d913088dea82a947823fcf1a3f16989"
+metafile = true
+
+[[files]]
+file = "mods/stronger-snowballs.pw.toml"
+hash = "ee713146a1c0d09cbdc54de7b475d183951b79e941d6d89636178b9cba9de131"
 metafile = true
 
 [[files]]

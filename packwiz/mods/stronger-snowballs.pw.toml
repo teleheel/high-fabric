@@ -1,0 +1,13 @@
+name = "Stronger Snowballs"
+filename = "StrongerSnowballs-Fabric-1.20.1-13.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8tSjJyMS/versions/gfKU7UHO/StrongerSnowballs-Fabric-1.20.1-13.0.1.jar"
+hash-format = "sha1"
+hash = "2e534a807bd4298ddc5d1be65d3f55ddec64f277"
+
+[update]
+[update.modrinth]
+mod-id = "8tSjJyMS"
+version = "gfKU7UHO"
