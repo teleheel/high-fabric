@@ -33,6 +33,10 @@ file = "config/debugify.json"
 hash = "d968973d6a52653c37b1663b52b60ae9349a93542cd6e634848e47e16ae8fa73"
 
 [[files]]
+file = "config/diet-server.toml"
+hash = "04eee46dfd608868c11663dc7b6d5c72a08406df0d5e02b8566aecea914e9bd1"
+
+[[files]]
 file = "config/dynamiccrosshair.json5"
 hash = "891ceb67d10f46fe98b3979c47fd32e426ad8fc2f1a3a6d97dbf7ff73e4fdb4d"
 
@@ -81,12 +85,28 @@ file = "config/modmenu.json"
 hash = "1a34f6566d192319192f2cdb6a154763ec16f99bcb55c2aae52e50323e4767e0"
 
 [[files]]
+file = "config/openloader/data/high-fabric-diet/data/high-fabric/diet/groups/sugars.json"
+hash = "6d587ade9ed2b9b44fccc01c03b566708b661bea00f5c56d76d99eabe48b1f17"
+
+[[files]]
+file = "config/openloader/data/high-fabric-diet/data/high-fabric/diet/suites/builtin.json"
+hash = "f5596a091a108c5e35bfd389921431ea2b5cb75be54db9c12f0dd387546c1822"
+
+[[files]]
+file = "config/openloader/data/high-fabric-diet/pack.mcmeta"
+hash = "be935d4b18be5a8d6dd8a1c3c00e8ffb7235588058df90e658a3916289e26e12"
+
+[[files]]
 file = "config/peek/peek.properties"
 hash = "8aea0b69f0428fe2b1833973267d6b7bb853565fb088bf071b85355e8d88ad36"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
 hash = "b3cb13a5066528022a59fd858c895960ac835c4be50da8788b7df7ad62e27662"
+
+[[files]]
+file = "config/soulfired-common.toml"
+hash = "b503ec46c187fd6c34fae8d86c1f4cc523527a2d72b479cde11e524c1e9cf03e"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -174,6 +194,11 @@ hash = "f2a3a436d5498e539230aa1936ac1009e4b140eda402b654b4a160431e7f517a"
 metafile = true
 
 [[files]]
+file = "mods/better-climbing.pw.toml"
+hash = "7da0c9deaa53f551129de9ff7ad2d2c28331ab938c8da1f4d22a25330dd1425a"
+metafile = true
+
+[[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
 metafile = true
@@ -201,6 +226,11 @@ metafile = true
 [[files]]
 file = "mods/borderless-mining.pw.toml"
 hash = "c49d42cddfb05cf5e4882d5753bd98a525c9a994fda5f49651003e8266b7aa9d"
+metafile = true
+
+[[files]]
+file = "mods/bridging-mod.pw.toml"
+hash = "46293d21a67530d5749c563f55203ea309fb3bd9222c06f2d154bd9e42c47e16"
 metafile = true
 
 [[files]]
@@ -264,6 +294,11 @@ hash = "ad1c760cb678da4bc065a124c45bac85d47124be7b9eb267e88a73f3bbc9d13a"
 metafile = true
 
 [[files]]
+file = "mods/crops-love-rain.pw.toml"
+hash = "86210effb15bdc190682590f926e36a7866b8d6488431cdddd17ee1f1d2a07f7"
+metafile = true
+
+[[files]]
 file = "mods/cyanide.pw.toml"
 hash = "f45d7cd223f352cc6c05c5ad8ae5b9f90c9cbfbc5ba401eb55faf29d1d87e662"
 metafile = true
@@ -289,13 +324,28 @@ hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
 metafile = true
 
 [[files]]
+file = "mods/diet.pw.toml"
+hash = "70e1a0ad6da7fe0a2e3a99f35546aee91028baf03afb14edaee393b33a05c036"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "7c5259e9ac7df8366d01465703abcfbb38b59ab68c885cba988f259bea36afb2"
 metafile = true
 
 [[files]]
+file = "mods/dismount-entity.pw.toml"
+hash = "dff7d55d6cf7f676aee2b59d4f23024caab1ad20576982b46643ef5d74eb423e"
+metafile = true
+
+[[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "f438dc8ebf458a05ebd69a902b0b471adba17576e993ac6305231b615e7fc56a"
+metafile = true
+
+[[files]]
+file = "mods/double-doors.pw.toml"
+hash = "c02a955a040a1ecdfdbe9573ffd0c5a252c51560871f068becbcfd713b386b16"
 metafile = true
 
 [[files]]
@@ -344,6 +394,11 @@ hash = "1d327c7422c097ddef659468a367b195e299f1e40068bf95c2cd2ee6462faa67"
 metafile = true
 
 [[files]]
+file = "mods/elytrabombing.pw.toml"
+hash = "4c2825e43f1233267cb4fe1613cc99e37c55da8b39b3e794ab424b17c9564da1"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "c3f1a1b50ae464543501b0be65590e43c498bcbac9196c413611b730a6c378b1"
 metafile = true
@@ -370,7 +425,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b92a08e1bcd540e972238d9744b2b85df361df4eeaeeaec993be62c33507054a"
+hash = "1795389ea718d749e68cd985ecd5bf1d0e865a0ad71570263669bfd0f353ecc4"
 metafile = true
 
 [[files]]
@@ -414,6 +469,11 @@ hash = "ff546737f6368601ad612aece127585fb444187b9bf860d430bd57a6d4d47f2c"
 metafile = true
 
 [[files]]
+file = "mods/fluidlogged.pw.toml"
+hash = "0bd9a9c4878e9de8e12a81a2d541f79e3f90191c1e6cac36f0a644f09510e529"
+metafile = true
+
+[[files]]
 file = "mods/foodeffecttooltips.pw.toml"
 hash = "91f195b8e25d9dc9b932993476f2c1f9e9c6a8e9368668325b40e336a8d0f5d7"
 metafile = true
@@ -421,11 +481,6 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
-metafile = true
-
-[[files]]
-file = "mods/globalpacks.pw.toml"
-hash = "dd95cf09d9a642a0914a01790dee89b72963e088a4ceb88e206efea6998b03a4"
 metafile = true
 
 [[files]]
@@ -474,6 +529,11 @@ hash = "bf169a7b52efae48628b3235bce63de433c404b069ce02985af1a037071e7aa0"
 metafile = true
 
 [[files]]
+file = "mods/kleeslabs.pw.toml"
+hash = "85e5ee80b3d6911217d846c082408fdf008aaf10386032e90a9caed44c89f785"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "8bb36bbf7dbac0d531f6c308329109d29d95a83a2c0d972178655efd8afddf4b"
 metafile = true
@@ -481,6 +541,11 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
+metafile = true
+
+[[files]]
+file = "mods/leaves-us-in-peace.pw.toml"
+hash = "57cae0b7139111e4c74b41efc9543e662bf7300344e01d8b13e67ee1b47d38b9"
 metafile = true
 
 [[files]]
@@ -574,6 +639,11 @@ hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "ce489ec10a2a6d848d391452aa87d60bab75e9b657ae31ed5d4112269005a7d9"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "e697002e593a54c31759e3849eaae1be9bcdff0d8ffc667c95d7fdf5bf59d979"
 metafile = true
@@ -659,6 +729,11 @@ hash = "217b07516517c4c01958387192143943f3e9309a0e935828f9f32af771425d66"
 metafile = true
 
 [[files]]
+file = "mods/soul-fire-d.pw.toml"
+hash = "9ee1234f55c72ec4e7f7d2dcb6982812412770e18fd4780e8ee216e3ce4b3bdf"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "f013995011fd15f45fc2bbd28a63f70542008891a6dcfd7a955a2ab3e248460d"
 metafile = true
@@ -686,6 +761,11 @@ metafile = true
 [[files]]
 file = "mods/styledplayerlist.pw.toml"
 hash = "27c9ee50e624c436e1bb6fe4bbeff166f5c6564e9f9a846ffef22e54a200c603"
+metafile = true
+
+[[files]]
+file = "mods/swingthrough.pw.toml"
+hash = "164bd9070d86ca231da118c32790f2144195a29a9ed1c556fcbf9714a1e633f7"
 metafile = true
 
 [[files]]

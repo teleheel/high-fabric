@@ -1,0 +1,13 @@
+name = "Diet"
+filename = "diet-fabric-2.1.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SsIkH9rZ/versions/YEveBF32/diet-fabric-2.1.0%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "865c1c16e5f16e5b90eb35cbe288a1333a1ba4f0"
+
+[update]
+[update.modrinth]
+mod-id = "SsIkH9rZ"
+version = "YEveBF32"
