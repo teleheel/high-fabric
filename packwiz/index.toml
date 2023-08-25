@@ -25,6 +25,10 @@ file = "config/borderlessmining.json"
 hash = "7c47862b98890f793c72476c7f2f805ff6404c4dc37c90465a82007be49e95fd"
 
 [[files]]
+file = "config/connectiblechains.toml"
+hash = "7c57c6b22d0299aca8498f1cea33add36442d41f3b4542ea097a9b101a97f70f"
+
+[[files]]
 file = "config/crowdin.txt"
 hash = "6b4d7eb81f36519c9672a2af5007a85501e33752d6e37edc509c3cea2b312215"
 
@@ -163,6 +167,11 @@ hash = "a237b4b38a245438976718e0dcdd5246fc84f3dff1f6d65e03e4b86b4b10e201"
 metafile = true
 
 [[files]]
+file = "mods/audaki-cart-engine.pw.toml"
+hash = "6857c52a97207660245cca3e12f410f82a5e6b6776bb87023130c21ed880bdbf"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "cea9d72f42127f4974afc7120d99dd4042d7342129d465ea4afb11f334749b61"
 metafile = true
@@ -298,6 +307,11 @@ hash = "1b8b5db9fa8f6c4f842cd70a8350d3a3bfc467bfc284d53ae05c2a45d7adeb80"
 metafile = true
 
 [[files]]
+file = "mods/connectible_chains.pw.toml"
+hash = "24ceeef91ed4244c63cf0dd4d34fea6b64f13de330ab86ca4929808ee4d2c01f"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "8e73f68cbcbff53b6a00c30f371fc34a63c2ac2240af4792008d67dce74fb507"
 metafile = true
@@ -338,6 +352,11 @@ hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
 metafile = true
 
 [[files]]
+file = "mods/deepslatecutting.pw.toml"
+hash = "f189746778654d05f2f568cb23d3a6ea50c25b7c0f490c1091b77e2eb60327d9"
+metafile = true
+
+[[files]]
 file = "mods/diet.pw.toml"
 hash = "70e1a0ad6da7fe0a2e3a99f35546aee91028baf03afb14edaee393b33a05c036"
 metafile = true
@@ -345,6 +364,11 @@ metafile = true
 [[files]]
 file = "mods/ding.pw.toml"
 hash = "7c5259e9ac7df8366d01465703abcfbb38b59ab68c885cba988f259bea36afb2"
+metafile = true
+
+[[files]]
+file = "mods/discerning-furnace.pw.toml"
+hash = "b08f156a2ba8c30f802cd2618faf6b659dcc4de4ffbf7a90dc13f55b3730a826"
 metafile = true
 
 [[files]]
@@ -448,6 +472,11 @@ hash = "759451c84dd1dc8f7e0c9ac3210a2d69f19becc342834a58b18252d6e627b9c6"
 metafile = true
 
 [[files]]
+file = "mods/expanded-enderchest.pw.toml"
+hash = "5146b09467e0e4eecd943a0d232372ceeea7b80564eea65c1fba4c97b5d071de"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "1795389ea718d749e68cd985ecd5bf1d0e865a0ad71570263669bfd0f353ecc4"
 metafile = true
@@ -513,6 +542,11 @@ hash = "5ba85e15fd70b8f68009ec186702495fe611a7a8ef389a04e9eda57a55eca94e"
 metafile = true
 
 [[files]]
+file = "mods/ice-boat-nerf.pw.toml"
+hash = "87a5b4ed4208dd607c9a2846f99b25d4a6ad15a16232a2de89863f944ad8c586"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "ca166dc5c6ff5dd4612a13bfe08d7351cc2815fa26a62cf84c42dc31fd860a6b"
 metafile = true
@@ -520,6 +554,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "da49262a60cebc436b9e4b7f8ab253930029ec5f9c18874a5bf7b55a4b8bc027"
+metafile = true
+
+[[files]]
+file = "mods/improved-signs.pw.toml"
+hash = "22712432bbd844d735def98c184149624396839fc26bb673a04ce2d991e8b237"
 metafile = true
 
 [[files]]
@@ -565,6 +604,11 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
+metafile = true
+
+[[files]]
+file = "mods/lanterns-bow.pw.toml"
+hash = "077bd2c2db737eec8e8c41b7faab34926cf96736e0d946cb4e1bb33db84857bf"
 metafile = true
 
 [[files]]
@@ -630,6 +674,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "e00217e8327711e7d6acf95814212d9398499bc15cde7a3ec4ca4417393a8fbc"
+metafile = true
+
+[[files]]
+file = "mods/more-banner-features.pw.toml"
+hash = "c2e7c271a462b708f4427ee5f8d679413e2b4481a7af651b647b0678e64e3652"
 metafile = true
 
 [[files]]
@@ -778,6 +827,11 @@ hash = "218f67d6bcaae849582618cd3e5eb1d4cac0fd6045115f64340620300e160c11"
 metafile = true
 
 [[files]]
+file = "mods/statement.pw.toml"
+hash = "7ec4b0244d1c156261b18fcbcdb684271fa697fa77847f38c593e2e10e6f177f"
+metafile = true
+
+[[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "4fb915d2bc266c1ed7a0dce77e3da295305c5dbec7a7ae1d142b3abf621be309"
 metafile = true
@@ -790,6 +844,11 @@ metafile = true
 [[files]]
 file = "mods/stronger-snowballs.pw.toml"
 hash = "ee713146a1c0d09cbdc54de7b475d183951b79e941d6d89636178b9cba9de131"
+metafile = true
+
+[[files]]
+file = "mods/sturdy-carts.pw.toml"
+hash = "7f2bd86d2c3779c8416ee2eb1e9c0b54e649cd6804b78a6b2d850e314749a69a"
 metafile = true
 
 [[files]]
